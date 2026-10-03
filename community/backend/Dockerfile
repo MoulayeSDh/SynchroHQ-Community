@@ -1,6 +1,6 @@
 FROM python:3.14-slim
 WORKDIR /app
-COPY requirements.txt requirements-dev.txt requrement.txt ./
+COPY requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
 COPY community/backend ./community/backend
 COPY community/forms ./community/forms

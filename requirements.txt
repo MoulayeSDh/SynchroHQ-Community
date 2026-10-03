@@ -1,1 +1,17 @@
--r requrement.txt
+# Community backend runtime dependencies.
+# requirements-lock.txt records the audited pinned environment.
+fastapi
+uvicorn[standard]
+pydantic>=2,<3
+pydantic-settings
+python-multipart
+jsonschema[format]>=4.23,<5
+SQLAlchemy[asyncio]>=2,<3
+alembic
+psycopg[binary,pool]
+PyJWT[crypto]
+argon2-cffi>=23,<26
+httpx
+boto3
+rfc8785
+tzdata

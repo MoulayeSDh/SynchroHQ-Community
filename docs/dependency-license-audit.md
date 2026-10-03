@@ -9,7 +9,7 @@ metadata is a lead for review, not a substitute for the actual license text.
 
 | Scope | Versions checked | Metadata result |
 | --- | ---: | --- |
-| Python lock | 77 | 76 declared a license; `mypy_extensions` did not |
+| Python lock | 77 | 76 declared a license in PyPI metadata; `mypy_extensions` was confirmed MIT from its source archive |
 | npm lock | 602 | 602 declared a license; 127 platform variants were checked against npm registry metadata because they were not installed locally |
 
 The lock includes development and platform-specific packages. This inventory
@@ -20,7 +20,10 @@ every browser. The distributed artifact must be inspected separately.
 
 - Python: `psycopg`, `psycopg-binary`, and `psycopg-pool` declare LGPL-3.0-only;
   `rfc3987` declares GPLv3+; `certifi`, `fqdn`, and `pathspec` declare MPL-2.0.
-  Resolve the missing `mypy_extensions` declaration against its source release.
+  The `mypy_extensions` 1.1.0 source archive contains an MIT `LICENSE` despite
+  its missing PyPI license declaration. The `rfc3987` 1.3.8 archive contains
+  GPLv3+ metadata and a GPLv3 license text. Check the use of this dependency
+  in distributed runtime artifacts and preserve its license.
 - npm: the Sharp/libvips platform packages declare LGPL-3.0-or-later in
   combination with other licenses; Lightning CSS and `axe-core` declare
   MPL-2.0. `caniuse-lite` declares CC-BY-4.0 for its data. Confirm which files
@@ -40,4 +43,8 @@ every browser. The distributed artifact must be inspected separately.
 Before a versioned release, inspect actual license files, source archives,
 container contents, and frontend output. Record any notices that must accompany
 redistributed artifacts. The commercial Enterprise combination needs a separate
-rights and compatibility review.
+rights and compatibility review. The Enterprise AI image inherits the Community
+backend image and imports Community Python modules directly. Repository
+separation does not establish that the combined image can be distributed under
+proprietary terms; review first-party rights, outside contributions, all
+third-party licenses, and the planned distribution method before customer use.

@@ -7,10 +7,10 @@ versioned release or customer distribution.
 
 ## Rights and licensing
 
-- The project owner reports a written assignment of the original SynchroHQ
-  code to D-Corp Invest. Verify the document's scope against source, forms,
-  documentation, visual assets, and any contractor work before a versioned release.
-  Git commit authorship alone is not proof of ownership or assignment.
+- Verify the rights needed to license first-party source, forms, documentation,
+  and visual assets, including any contractor work, before a versioned release.
+  The `COPYRIGHT` notice identifies D-Corp Invest and credits Moulaye; this
+  review does not assert a transfer of rights.
 - Confirm that `AGPL-3.0-only` reflects the rights holder's intended version
   choice. The official license text has been added unchanged; verify the
   accuracy and scope of the `COPYRIGHT` notice before a versioned release.
@@ -42,13 +42,16 @@ versioned release or customer distribution.
 
 - The reachable Git history was scanned for common credential patterns,
   private IP URLs, personal email addresses, and forbidden paths. No direct
-  Enterprise or client paths were found. The sole GitHub Actions artifact was
-  an explicitly synthetic recovery backup and has been removed. Continue with
-  dedicated secret scanning; a pattern scan alone is insufficient.
+  Enterprise or client paths were found. Gitleaks 8.30.1 also scanned all seven
+  reachable commits with no findings. These scans cannot rule out every secret.
+  The sole GitHub Actions artifact was an explicitly synthetic recovery backup
+  and has been removed.
 - Confirm `.env.example` and deployment templates contain examples only; keep
   real production configuration and backups outside Git.
 - Private vulnerability reporting is enabled. Periodically verify the public
   reporting flow and update `SECURITY.md` as support policy evolves.
+- GitHub secret scanning and push protection are enabled. Recheck alerts and
+  branch protection after each change to repository security settings.
 - Recheck dependency advisories, licenses, CI, clean installation, and restore
   against the exact commit intended for each versioned release.
 - Review repository metadata, GitHub Actions artifacts, and branch protection

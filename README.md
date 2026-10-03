@@ -139,6 +139,15 @@ The platform provides:
 
 SynchroHQ Community has completed local functional validation using synthetic pilot data, including offline collection, hierarchical review, analytics and geospatial features.
 
+### Screenshot
+
+![SynchroHQ Community sign-in screen in French](docs/screenshots/community-login.png)
+
+The image shows the actual Community sign-in screen from the isolated HTTPS
+validation environment. It contains no customer data. Additional screenshots
+of authenticated workflows will be added after capture in a clean demo
+environment.
+
 Production deployment validation, operational hardening and real-world field validation are separate steps.
 
 **Developed by D-Corp Invest.** SynchroHQ is an Open Core platform developed

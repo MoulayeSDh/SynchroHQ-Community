@@ -108,6 +108,10 @@ SynchroHQ Community has completed local functional validation using synthetic pi
 
 Production deployment validation, operational hardening and real-world field validation are separate steps.
 
+**Developed by D-Corp Invest.** SynchroHQ is an Open Core platform developed
+by D-Corp Invest, combining open-source field reporting and coordination with
+optional commercial Enterprise capabilities. [Official website](https://www.dcorpinvest.com).
+
 For technical users and implementation teams:
 
 - [Reproducible production deployment](deployments/community/production/README.md)
@@ -137,9 +141,9 @@ GitHub Actions; further Linux validation is deferred to a client deployment.
 First-party SynchroHQ Community code is licensed under
 [GNU AGPL version 3 only](LICENSE) (`AGPL-3.0-only`), subject to the rights
 identified in [COPYRIGHT](COPYRIGHT). Third-party components retain their own
-licenses. Public release remains pending the dependency, attribution, and
-Enterprise integration checks in the
-[release review](docs/open-source-release-review.md). See also the
+licenses. The dependency, attribution, and Enterprise integration checks
+continue after publication in the
+[publication review](docs/open-source-release-review.md). See also the
 [contribution guide](CONTRIBUTING.md) and [security policy](SECURITY.md).
 The planned Open Core offering is described in
 [commercial licensing](COMMERCIAL-LICENSING.md).

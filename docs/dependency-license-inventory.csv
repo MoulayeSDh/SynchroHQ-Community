@@ -1,0 +1,680 @@
+ecosystem,package,version,declared_license,metadata_url,status
+npm,@adobe/css-tools,4.5.0,MIT,https://www.npmjs.com/package/@adobe/css-tools/v/4.5.0,installed metadata
+npm,@alloc/quick-lru,5.3.0,MIT,https://www.npmjs.com/package/@alloc/quick-lru/v/5.3.0,installed metadata
+npm,@asamuzakjp/css-color,7.1.0,MIT,https://www.npmjs.com/package/@asamuzakjp/css-color/v/7.1.0,installed metadata
+npm,@asamuzakjp/dom-selector,9.2.1,MIT,https://www.npmjs.com/package/@asamuzakjp/dom-selector/v/9.2.1,installed metadata
+npm,@babel/code-frame,7.29.7,MIT,https://www.npmjs.com/package/@babel/code-frame/v/7.29.7,installed metadata
+npm,@babel/compat-data,7.29.7,MIT,https://www.npmjs.com/package/@babel/compat-data/v/7.29.7,installed metadata
+npm,@babel/core,7.29.7,MIT,https://www.npmjs.com/package/@babel/core/v/7.29.7,installed metadata
+npm,@babel/generator,7.29.8,MIT,https://www.npmjs.com/package/@babel/generator/v/7.29.8,installed metadata
+npm,@babel/helper-compilation-targets,7.29.7,MIT,https://www.npmjs.com/package/@babel/helper-compilation-targets/v/7.29.7,installed metadata
+npm,@babel/helper-globals,7.29.7,MIT,https://www.npmjs.com/package/@babel/helper-globals/v/7.29.7,installed metadata
+npm,@babel/helper-module-imports,7.29.7,MIT,https://www.npmjs.com/package/@babel/helper-module-imports/v/7.29.7,installed metadata
+npm,@babel/helper-module-transforms,7.29.7,MIT,https://www.npmjs.com/package/@babel/helper-module-transforms/v/7.29.7,installed metadata
+npm,@babel/helper-string-parser,7.29.7,MIT,https://www.npmjs.com/package/@babel/helper-string-parser/v/7.29.7,installed metadata
+npm,@babel/helper-validator-identifier,7.29.7,MIT,https://www.npmjs.com/package/@babel/helper-validator-identifier/v/7.29.7,installed metadata
+npm,@babel/helper-validator-option,7.29.7,MIT,https://www.npmjs.com/package/@babel/helper-validator-option/v/7.29.7,installed metadata
+npm,@babel/helpers,7.29.7,MIT,https://www.npmjs.com/package/@babel/helpers/v/7.29.7,installed metadata
+npm,@babel/parser,7.29.9,MIT,https://www.npmjs.com/package/@babel/parser/v/7.29.9,installed metadata
+npm,@babel/runtime,7.29.7,MIT,https://www.npmjs.com/package/@babel/runtime/v/7.29.7,installed metadata
+npm,@babel/template,7.29.7,MIT,https://www.npmjs.com/package/@babel/template/v/7.29.7,installed metadata
+npm,@babel/traverse,7.29.8,MIT,https://www.npmjs.com/package/@babel/traverse/v/7.29.8,installed metadata
+npm,@babel/types,7.29.8,MIT,https://www.npmjs.com/package/@babel/types/v/7.29.8,installed metadata
+npm,@bramus/specificity,2.4.2,MIT,https://www.npmjs.com/package/@bramus/specificity/v/2.4.2,installed metadata
+npm,@csstools/color-helpers,6.1.2,MIT-0,https://www.npmjs.com/package/@csstools/color-helpers/v/6.1.2,installed metadata
+npm,@csstools/css-calc,3.4.1,MIT,https://www.npmjs.com/package/@csstools/css-calc/v/3.4.1,installed metadata
+npm,@csstools/css-color-parser,4.2.4,MIT,https://www.npmjs.com/package/@csstools/css-color-parser/v/4.2.4,installed metadata
+npm,@csstools/css-parser-algorithms,4.0.1,MIT,https://www.npmjs.com/package/@csstools/css-parser-algorithms/v/4.0.1,installed metadata
+npm,@csstools/css-syntax-patches-for-csstree,1.1.14,MIT-0,https://www.npmjs.com/package/@csstools/css-syntax-patches-for-csstree/v/1.1.14,installed metadata
+npm,@csstools/css-tokenizer,4.0.2,MIT,https://www.npmjs.com/package/@csstools/css-tokenizer/v/4.0.2,installed metadata
+npm,@eloqnt/config,0.1.0,MIT,https://www.npmjs.com/package/@eloqnt/config/v/0.1.0,installed metadata
+npm,@eloqnt/format-json,0.1.0,MIT,https://www.npmjs.com/package/@eloqnt/format-json/v/0.1.0,installed metadata
+npm,@eloqnt/format-po,0.1.0,MIT,https://www.npmjs.com/package/@eloqnt/format-po/v/0.1.0,installed metadata
+npm,@emnapi/core,1.10.0,MIT,https://registry.npmjs.org/%40emnapi%2Fcore/1.10.0,registry metadata
+npm,@emnapi/runtime,1.10.0,MIT,https://registry.npmjs.org/%40emnapi%2Fruntime/1.10.0,registry metadata
+npm,@emnapi/runtime,1.11.3,MIT,https://registry.npmjs.org/%40emnapi%2Fruntime/1.11.3,registry metadata
+npm,@emnapi/wasi-threads,1.2.1,MIT,https://registry.npmjs.org/%40emnapi%2Fwasi-threads/1.2.1,registry metadata
+npm,@eslint-community/eslint-utils,4.10.1,MIT,https://www.npmjs.com/package/@eslint-community/eslint-utils/v/4.10.1,installed metadata
+npm,@eslint-community/eslint-utils,4.9.1,MIT,https://www.npmjs.com/package/@eslint-community/eslint-utils/v/4.9.1,installed metadata
+npm,@eslint-community/regexpp,4.12.2,MIT,https://www.npmjs.com/package/@eslint-community/regexpp/v/4.12.2,installed metadata
+npm,@eslint/config-array,0.21.2,Apache-2.0,https://www.npmjs.com/package/@eslint/config-array/v/0.21.2,installed metadata
+npm,@eslint/config-helpers,0.4.2,Apache-2.0,https://www.npmjs.com/package/@eslint/config-helpers/v/0.4.2,installed metadata
+npm,@eslint/core,0.17.0,Apache-2.0,https://www.npmjs.com/package/@eslint/core/v/0.17.0,installed metadata
+npm,@eslint/eslintrc,3.3.7,MIT,https://www.npmjs.com/package/@eslint/eslintrc/v/3.3.7,installed metadata
+npm,@eslint/js,9.39.5,MIT,https://www.npmjs.com/package/@eslint/js/v/9.39.5,installed metadata
+npm,@eslint/object-schema,2.1.7,Apache-2.0,https://www.npmjs.com/package/@eslint/object-schema/v/2.1.7,installed metadata
+npm,@eslint/plugin-kit,0.4.1,Apache-2.0,https://www.npmjs.com/package/@eslint/plugin-kit/v/0.4.1,installed metadata
+npm,@exodus/bytes,1.16.0,MIT,https://www.npmjs.com/package/@exodus/bytes/v/1.16.0,installed metadata
+npm,@formatjs/fast-memoize,3.1.7,MIT,https://www.npmjs.com/package/@formatjs/fast-memoize/v/3.1.7,installed metadata
+npm,@formatjs/icu-messageformat-parser,3.5.18,MIT,https://www.npmjs.com/package/@formatjs/icu-messageformat-parser/v/3.5.18,installed metadata
+npm,@formatjs/icu-messageformat-parser,3.5.20,MIT,https://www.npmjs.com/package/@formatjs/icu-messageformat-parser/v/3.5.20,installed metadata
+npm,@formatjs/icu-skeleton-parser,2.1.11,MIT,https://www.npmjs.com/package/@formatjs/icu-skeleton-parser/v/2.1.11,installed metadata
+npm,@formatjs/icu-skeleton-parser,2.1.12,MIT,https://www.npmjs.com/package/@formatjs/icu-skeleton-parser/v/2.1.12,installed metadata
+npm,@formatjs/intl-localematcher,0.8.14,MIT,https://www.npmjs.com/package/@formatjs/intl-localematcher/v/0.8.14,installed metadata
+npm,@hookform/resolvers,5.9.1,MIT,https://www.npmjs.com/package/@hookform/resolvers/v/5.9.1,installed metadata
+npm,@humanfs/core,0.19.2,Apache-2.0,https://www.npmjs.com/package/@humanfs/core/v/0.19.2,installed metadata
+npm,@humanfs/node,0.16.8,Apache-2.0,https://www.npmjs.com/package/@humanfs/node/v/0.16.8,installed metadata
+npm,@humanfs/types,0.15.0,Apache-2.0,https://www.npmjs.com/package/@humanfs/types/v/0.15.0,installed metadata
+npm,@humanwhocodes/module-importer,1.0.1,Apache-2.0,https://www.npmjs.com/package/@humanwhocodes/module-importer/v/1.0.1,installed metadata
+npm,@humanwhocodes/retry,0.4.3,Apache-2.0,https://www.npmjs.com/package/@humanwhocodes/retry/v/0.4.3,installed metadata
+npm,@img/colour,1.1.0,MIT,https://www.npmjs.com/package/@img/colour/v/1.1.0,installed metadata
+npm,@img/sharp-darwin-arm64,0.35.4,Apache-2.0,https://registry.npmjs.org/%40img%2Fsharp-darwin-arm64/0.35.4,registry metadata
+npm,@img/sharp-darwin-x64,0.35.4,Apache-2.0,https://registry.npmjs.org/%40img%2Fsharp-darwin-x64/0.35.4,registry metadata
+npm,@img/sharp-freebsd-wasm32,0.35.4,Apache-2.0,https://registry.npmjs.org/%40img%2Fsharp-freebsd-wasm32/0.35.4,registry metadata
+npm,@img/sharp-libvips-darwin-arm64,1.3.3,LGPL-3.0-or-later,https://registry.npmjs.org/%40img%2Fsharp-libvips-darwin-arm64/1.3.3,registry metadata
+npm,@img/sharp-libvips-darwin-x64,1.3.3,LGPL-3.0-or-later,https://registry.npmjs.org/%40img%2Fsharp-libvips-darwin-x64/1.3.3,registry metadata
+npm,@img/sharp-libvips-linux-arm,1.3.3,LGPL-3.0-or-later,https://registry.npmjs.org/%40img%2Fsharp-libvips-linux-arm/1.3.3,registry metadata
+npm,@img/sharp-libvips-linux-arm64,1.3.3,LGPL-3.0-or-later,https://registry.npmjs.org/%40img%2Fsharp-libvips-linux-arm64/1.3.3,registry metadata
+npm,@img/sharp-libvips-linux-ppc64,1.3.3,LGPL-3.0-or-later,https://registry.npmjs.org/%40img%2Fsharp-libvips-linux-ppc64/1.3.3,registry metadata
+npm,@img/sharp-libvips-linux-riscv64,1.3.3,LGPL-3.0-or-later,https://registry.npmjs.org/%40img%2Fsharp-libvips-linux-riscv64/1.3.3,registry metadata
+npm,@img/sharp-libvips-linux-s390x,1.3.3,LGPL-3.0-or-later,https://registry.npmjs.org/%40img%2Fsharp-libvips-linux-s390x/1.3.3,registry metadata
+npm,@img/sharp-libvips-linux-x64,1.3.3,LGPL-3.0-or-later,https://registry.npmjs.org/%40img%2Fsharp-libvips-linux-x64/1.3.3,registry metadata
+npm,@img/sharp-libvips-linuxmusl-arm64,1.3.3,LGPL-3.0-or-later,https://registry.npmjs.org/%40img%2Fsharp-libvips-linuxmusl-arm64/1.3.3,registry metadata
+npm,@img/sharp-libvips-linuxmusl-x64,1.3.3,LGPL-3.0-or-later,https://registry.npmjs.org/%40img%2Fsharp-libvips-linuxmusl-x64/1.3.3,registry metadata
+npm,@img/sharp-linux-arm,0.35.4,Apache-2.0,https://registry.npmjs.org/%40img%2Fsharp-linux-arm/0.35.4,registry metadata
+npm,@img/sharp-linux-arm64,0.35.4,Apache-2.0,https://registry.npmjs.org/%40img%2Fsharp-linux-arm64/0.35.4,registry metadata
+npm,@img/sharp-linux-ppc64,0.35.4,Apache-2.0,https://registry.npmjs.org/%40img%2Fsharp-linux-ppc64/0.35.4,registry metadata
+npm,@img/sharp-linux-riscv64,0.35.4,Apache-2.0,https://registry.npmjs.org/%40img%2Fsharp-linux-riscv64/0.35.4,registry metadata
+npm,@img/sharp-linux-s390x,0.35.4,Apache-2.0,https://registry.npmjs.org/%40img%2Fsharp-linux-s390x/0.35.4,registry metadata
+npm,@img/sharp-linux-x64,0.35.4,Apache-2.0,https://registry.npmjs.org/%40img%2Fsharp-linux-x64/0.35.4,registry metadata
+npm,@img/sharp-linuxmusl-arm64,0.35.4,Apache-2.0,https://registry.npmjs.org/%40img%2Fsharp-linuxmusl-arm64/0.35.4,registry metadata
+npm,@img/sharp-linuxmusl-x64,0.35.4,Apache-2.0,https://registry.npmjs.org/%40img%2Fsharp-linuxmusl-x64/0.35.4,registry metadata
+npm,@img/sharp-wasm32,0.35.4,Apache-2.0 AND LGPL-3.0-or-later AND MIT,https://registry.npmjs.org/%40img%2Fsharp-wasm32/0.35.4,registry metadata
+npm,@img/sharp-webcontainers-wasm32,0.35.4,Apache-2.0,https://registry.npmjs.org/%40img%2Fsharp-webcontainers-wasm32/0.35.4,registry metadata
+npm,@img/sharp-win32-arm64,0.35.4,Apache-2.0 AND LGPL-3.0-or-later,https://registry.npmjs.org/%40img%2Fsharp-win32-arm64/0.35.4,registry metadata
+npm,@img/sharp-win32-ia32,0.35.4,Apache-2.0 AND LGPL-3.0-or-later,https://registry.npmjs.org/%40img%2Fsharp-win32-ia32/0.35.4,registry metadata
+npm,@img/sharp-win32-x64,0.35.4,Apache-2.0 AND LGPL-3.0-or-later,https://www.npmjs.com/package/@img/sharp-win32-x64/v/0.35.4,installed metadata
+npm,@jridgewell/gen-mapping,0.3.13,MIT,https://www.npmjs.com/package/@jridgewell/gen-mapping/v/0.3.13,installed metadata
+npm,@jridgewell/remapping,2.3.5,MIT,https://www.npmjs.com/package/@jridgewell/remapping/v/2.3.5,installed metadata
+npm,@jridgewell/resolve-uri,3.1.2,MIT,https://www.npmjs.com/package/@jridgewell/resolve-uri/v/3.1.2,installed metadata
+npm,@jridgewell/sourcemap-codec,1.6.0,MIT,https://www.npmjs.com/package/@jridgewell/sourcemap-codec/v/1.6.0,installed metadata
+npm,@jridgewell/trace-mapping,0.3.31,MIT,https://www.npmjs.com/package/@jridgewell/trace-mapping/v/0.3.31,installed metadata
+npm,@napi-rs/wasm-runtime,1.2.4,MIT,https://registry.npmjs.org/%40napi-rs%2Fwasm-runtime/1.2.4,registry metadata
+npm,@next/env,16.3.6,MIT,https://www.npmjs.com/package/@next/env/v/16.3.6,installed metadata
+npm,@next/eslint-plugin-next,16.3.6,MIT,https://www.npmjs.com/package/@next/eslint-plugin-next/v/16.3.6,installed metadata
+npm,@next/swc-darwin-arm64,16.3.6,MIT,https://registry.npmjs.org/%40next%2Fswc-darwin-arm64/16.3.6,registry metadata
+npm,@next/swc-darwin-x64,16.3.6,MIT,https://registry.npmjs.org/%40next%2Fswc-darwin-x64/16.3.6,registry metadata
+npm,@next/swc-linux-arm64-gnu,16.3.6,MIT,https://registry.npmjs.org/%40next%2Fswc-linux-arm64-gnu/16.3.6,registry metadata
+npm,@next/swc-linux-arm64-musl,16.3.6,MIT,https://registry.npmjs.org/%40next%2Fswc-linux-arm64-musl/16.3.6,registry metadata
+npm,@next/swc-linux-x64-gnu,16.3.6,MIT,https://registry.npmjs.org/%40next%2Fswc-linux-x64-gnu/16.3.6,registry metadata
+npm,@next/swc-linux-x64-musl,16.3.6,MIT,https://registry.npmjs.org/%40next%2Fswc-linux-x64-musl/16.3.6,registry metadata
+npm,@next/swc-win32-arm64-msvc,16.3.6,MIT,https://registry.npmjs.org/%40next%2Fswc-win32-arm64-msvc/16.3.6,registry metadata
+npm,@next/swc-win32-x64-msvc,16.3.6,MIT,https://www.npmjs.com/package/@next/swc-win32-x64-msvc/v/16.3.6,installed metadata
+npm,@nodelib/fs.scandir,2.1.5,MIT,https://www.npmjs.com/package/@nodelib/fs.scandir/v/2.1.5,installed metadata
+npm,@nodelib/fs.stat,2.0.5,MIT,https://www.npmjs.com/package/@nodelib/fs.stat/v/2.0.5,installed metadata
+npm,@nodelib/fs.walk,1.2.8,MIT,https://www.npmjs.com/package/@nodelib/fs.walk/v/1.2.8,installed metadata
+npm,@nolyfill/is-core-module,1.0.39,MIT,https://www.npmjs.com/package/@nolyfill/is-core-module/v/1.0.39,installed metadata
+npm,@oxc-project/types,0.151.0,MIT,https://www.npmjs.com/package/@oxc-project/types/v/0.151.0,installed metadata
+npm,@parcel/watcher,2.6.0,MIT,https://www.npmjs.com/package/@parcel/watcher/v/2.6.0,installed metadata
+npm,@parcel/watcher-android-arm64,2.6.0,MIT,https://registry.npmjs.org/%40parcel%2Fwatcher-android-arm64/2.6.0,registry metadata
+npm,@parcel/watcher-darwin-arm64,2.6.0,MIT,https://registry.npmjs.org/%40parcel%2Fwatcher-darwin-arm64/2.6.0,registry metadata
+npm,@parcel/watcher-darwin-x64,2.6.0,MIT,https://registry.npmjs.org/%40parcel%2Fwatcher-darwin-x64/2.6.0,registry metadata
+npm,@parcel/watcher-freebsd-x64,2.6.0,MIT,https://registry.npmjs.org/%40parcel%2Fwatcher-freebsd-x64/2.6.0,registry metadata
+npm,@parcel/watcher-linux-arm-glibc,2.6.0,MIT,https://registry.npmjs.org/%40parcel%2Fwatcher-linux-arm-glibc/2.6.0,registry metadata
+npm,@parcel/watcher-linux-arm-musl,2.6.0,MIT,https://registry.npmjs.org/%40parcel%2Fwatcher-linux-arm-musl/2.6.0,registry metadata
+npm,@parcel/watcher-linux-arm64-glibc,2.6.0,MIT,https://registry.npmjs.org/%40parcel%2Fwatcher-linux-arm64-glibc/2.6.0,registry metadata
+npm,@parcel/watcher-linux-arm64-musl,2.6.0,MIT,https://registry.npmjs.org/%40parcel%2Fwatcher-linux-arm64-musl/2.6.0,registry metadata
+npm,@parcel/watcher-linux-x64-glibc,2.6.0,MIT,https://registry.npmjs.org/%40parcel%2Fwatcher-linux-x64-glibc/2.6.0,registry metadata
+npm,@parcel/watcher-linux-x64-musl,2.6.0,MIT,https://registry.npmjs.org/%40parcel%2Fwatcher-linux-x64-musl/2.6.0,registry metadata
+npm,@parcel/watcher-win32-arm64,2.6.0,MIT,https://registry.npmjs.org/%40parcel%2Fwatcher-win32-arm64/2.6.0,registry metadata
+npm,@parcel/watcher-win32-x64,2.6.0,MIT,https://www.npmjs.com/package/@parcel/watcher-win32-x64/v/2.6.0,installed metadata
+npm,@playwright/test,1.63.0,Apache-2.0,https://www.npmjs.com/package/@playwright/test/v/1.63.0,installed metadata
+npm,@rolldown/binding-android-arm-eabi,1.2.11,MIT,https://registry.npmjs.org/%40rolldown%2Fbinding-android-arm-eabi/1.2.11,registry metadata
+npm,@rolldown/binding-android-arm64,1.2.11,MIT,https://registry.npmjs.org/%40rolldown%2Fbinding-android-arm64/1.2.11,registry metadata
+npm,@rolldown/binding-darwin-arm64,1.2.11,MIT,https://registry.npmjs.org/%40rolldown%2Fbinding-darwin-arm64/1.2.11,registry metadata
+npm,@rolldown/binding-darwin-x64,1.2.11,MIT,https://registry.npmjs.org/%40rolldown%2Fbinding-darwin-x64/1.2.11,registry metadata
+npm,@rolldown/binding-freebsd-x64,1.2.11,MIT,https://registry.npmjs.org/%40rolldown%2Fbinding-freebsd-x64/1.2.11,registry metadata
+npm,@rolldown/binding-linux-arm-gnueabihf,1.2.11,MIT,https://registry.npmjs.org/%40rolldown%2Fbinding-linux-arm-gnueabihf/1.2.11,registry metadata
+npm,@rolldown/binding-linux-arm64-gnu,1.2.11,MIT,https://registry.npmjs.org/%40rolldown%2Fbinding-linux-arm64-gnu/1.2.11,registry metadata
+npm,@rolldown/binding-linux-arm64-musl,1.2.11,MIT,https://registry.npmjs.org/%40rolldown%2Fbinding-linux-arm64-musl/1.2.11,registry metadata
+npm,@rolldown/binding-linux-ppc64-gnu,1.2.11,MIT,https://registry.npmjs.org/%40rolldown%2Fbinding-linux-ppc64-gnu/1.2.11,registry metadata
+npm,@rolldown/binding-linux-s390x-gnu,1.2.11,MIT,https://registry.npmjs.org/%40rolldown%2Fbinding-linux-s390x-gnu/1.2.11,registry metadata
+npm,@rolldown/binding-linux-x64-gnu,1.2.11,MIT,https://registry.npmjs.org/%40rolldown%2Fbinding-linux-x64-gnu/1.2.11,registry metadata
+npm,@rolldown/binding-linux-x64-musl,1.2.11,MIT,https://registry.npmjs.org/%40rolldown%2Fbinding-linux-x64-musl/1.2.11,registry metadata
+npm,@rolldown/binding-openharmony-arm64,1.2.11,MIT,https://registry.npmjs.org/%40rolldown%2Fbinding-openharmony-arm64/1.2.11,registry metadata
+npm,@rolldown/binding-win32-arm64-msvc,1.2.11,MIT,https://registry.npmjs.org/%40rolldown%2Fbinding-win32-arm64-msvc/1.2.11,registry metadata
+npm,@rolldown/binding-win32-x64-msvc,1.2.11,MIT,https://www.npmjs.com/package/@rolldown/binding-win32-x64-msvc/v/1.2.11,installed metadata
+npm,@rolldown/pluginutils,1.0.1,MIT,https://www.npmjs.com/package/@rolldown/pluginutils/v/1.0.1,installed metadata
+npm,@rtsao/scc,1.1.0,MIT,https://www.npmjs.com/package/@rtsao/scc/v/1.1.0,installed metadata
+npm,@schummar/icu-type-parser,1.21.5,MIT,https://www.npmjs.com/package/@schummar/icu-type-parser/v/1.21.5,installed metadata
+npm,@standard-schema/utils,0.3.0,MIT,https://www.npmjs.com/package/@standard-schema/utils/v/0.3.0,installed metadata
+npm,@swc/core,1.16.2,Apache-2.0,https://www.npmjs.com/package/@swc/core/v/1.16.2,installed metadata
+npm,@swc/core-darwin-arm64,1.16.2,Apache-2.0 AND MIT,https://registry.npmjs.org/%40swc%2Fcore-darwin-arm64/1.16.2,registry metadata
+npm,@swc/core-darwin-x64,1.16.2,Apache-2.0 AND MIT,https://registry.npmjs.org/%40swc%2Fcore-darwin-x64/1.16.2,registry metadata
+npm,@swc/core-linux-arm-gnueabihf,1.16.2,Apache-2.0,https://registry.npmjs.org/%40swc%2Fcore-linux-arm-gnueabihf/1.16.2,registry metadata
+npm,@swc/core-linux-arm64-gnu,1.16.2,Apache-2.0 AND MIT,https://registry.npmjs.org/%40swc%2Fcore-linux-arm64-gnu/1.16.2,registry metadata
+npm,@swc/core-linux-arm64-musl,1.16.2,Apache-2.0 AND MIT,https://registry.npmjs.org/%40swc%2Fcore-linux-arm64-musl/1.16.2,registry metadata
+npm,@swc/core-linux-ppc64-gnu,1.16.2,Apache-2.0 AND MIT,https://registry.npmjs.org/%40swc%2Fcore-linux-ppc64-gnu/1.16.2,registry metadata
+npm,@swc/core-linux-s390x-gnu,1.16.2,Apache-2.0 AND MIT,https://registry.npmjs.org/%40swc%2Fcore-linux-s390x-gnu/1.16.2,registry metadata
+npm,@swc/core-linux-x64-gnu,1.16.2,Apache-2.0 AND MIT,https://registry.npmjs.org/%40swc%2Fcore-linux-x64-gnu/1.16.2,registry metadata
+npm,@swc/core-linux-x64-musl,1.16.2,Apache-2.0 AND MIT,https://registry.npmjs.org/%40swc%2Fcore-linux-x64-musl/1.16.2,registry metadata
+npm,@swc/core-win32-arm64-msvc,1.16.2,Apache-2.0 AND MIT,https://registry.npmjs.org/%40swc%2Fcore-win32-arm64-msvc/1.16.2,registry metadata
+npm,@swc/core-win32-ia32-msvc,1.16.2,Apache-2.0 AND MIT,https://registry.npmjs.org/%40swc%2Fcore-win32-ia32-msvc/1.16.2,registry metadata
+npm,@swc/core-win32-x64-msvc,1.16.2,Apache-2.0 AND MIT,https://www.npmjs.com/package/@swc/core-win32-x64-msvc/v/1.16.2,installed metadata
+npm,@swc/counter,0.1.3,Apache-2.0,https://www.npmjs.com/package/@swc/counter/v/0.1.3,installed metadata
+npm,@swc/helpers,0.5.23,Apache-2.0,https://www.npmjs.com/package/@swc/helpers/v/0.5.23,installed metadata
+npm,@swc/types,0.1.28,Apache-2.0,https://www.npmjs.com/package/@swc/types/v/0.1.28,installed metadata
+npm,@tailwindcss/node,4.3.3,MIT,https://www.npmjs.com/package/@tailwindcss/node/v/4.3.3,installed metadata
+npm,@tailwindcss/oxide,4.3.3,MIT,https://www.npmjs.com/package/@tailwindcss/oxide/v/4.3.3,installed metadata
+npm,@tailwindcss/oxide-android-arm64,4.3.3,MIT,https://registry.npmjs.org/%40tailwindcss%2Foxide-android-arm64/4.3.3,registry metadata
+npm,@tailwindcss/oxide-darwin-arm64,4.3.3,MIT,https://registry.npmjs.org/%40tailwindcss%2Foxide-darwin-arm64/4.3.3,registry metadata
+npm,@tailwindcss/oxide-darwin-x64,4.3.3,MIT,https://registry.npmjs.org/%40tailwindcss%2Foxide-darwin-x64/4.3.3,registry metadata
+npm,@tailwindcss/oxide-freebsd-x64,4.3.3,MIT,https://registry.npmjs.org/%40tailwindcss%2Foxide-freebsd-x64/4.3.3,registry metadata
+npm,@tailwindcss/oxide-linux-arm-gnueabihf,4.3.3,MIT,https://registry.npmjs.org/%40tailwindcss%2Foxide-linux-arm-gnueabihf/4.3.3,registry metadata
+npm,@tailwindcss/oxide-linux-arm64-gnu,4.3.3,MIT,https://registry.npmjs.org/%40tailwindcss%2Foxide-linux-arm64-gnu/4.3.3,registry metadata
+npm,@tailwindcss/oxide-linux-arm64-musl,4.3.3,MIT,https://registry.npmjs.org/%40tailwindcss%2Foxide-linux-arm64-musl/4.3.3,registry metadata
+npm,@tailwindcss/oxide-linux-x64-gnu,4.3.3,MIT,https://registry.npmjs.org/%40tailwindcss%2Foxide-linux-x64-gnu/4.3.3,registry metadata
+npm,@tailwindcss/oxide-linux-x64-musl,4.3.3,MIT,https://registry.npmjs.org/%40tailwindcss%2Foxide-linux-x64-musl/4.3.3,registry metadata
+npm,@tailwindcss/oxide-wasm32-wasi,4.3.3,MIT,https://registry.npmjs.org/%40tailwindcss%2Foxide-wasm32-wasi/4.3.3,registry metadata
+npm,@tailwindcss/oxide-win32-arm64-msvc,4.3.3,MIT,https://registry.npmjs.org/%40tailwindcss%2Foxide-win32-arm64-msvc/4.3.3,registry metadata
+npm,@tailwindcss/oxide-win32-x64-msvc,4.3.3,MIT,https://www.npmjs.com/package/@tailwindcss/oxide-win32-x64-msvc/v/4.3.3,installed metadata
+npm,@tailwindcss/postcss,4.3.3,MIT,https://www.npmjs.com/package/@tailwindcss/postcss/v/4.3.3,installed metadata
+npm,@tanstack/query-core,5.104.0,MIT,https://www.npmjs.com/package/@tanstack/query-core/v/5.104.0,installed metadata
+npm,@tanstack/react-query,5.104.0,MIT,https://www.npmjs.com/package/@tanstack/react-query/v/5.104.0,installed metadata
+npm,@testing-library/dom,10.4.2,MIT,https://www.npmjs.com/package/@testing-library/dom/v/10.4.2,installed metadata
+npm,@testing-library/jest-dom,7.0.1,MIT,https://www.npmjs.com/package/@testing-library/jest-dom/v/7.0.1,installed metadata
+npm,@testing-library/react,16.3.3,MIT,https://www.npmjs.com/package/@testing-library/react/v/16.3.3,installed metadata
+npm,@testing-library/user-event,14.6.7,MIT,https://www.npmjs.com/package/@testing-library/user-event/v/14.6.7,installed metadata
+npm,@tybys/wasm-util,0.10.4,MIT,https://registry.npmjs.org/%40tybys%2Fwasm-util/0.10.4,registry metadata
+npm,@types/aria-query,5.0.4,MIT,https://www.npmjs.com/package/@types/aria-query/v/5.0.4,installed metadata
+npm,@types/chai,5.2.3,MIT,https://www.npmjs.com/package/@types/chai/v/5.2.3,installed metadata
+npm,@types/deep-eql,4.0.2,MIT,https://www.npmjs.com/package/@types/deep-eql/v/4.0.2,installed metadata
+npm,@types/estree,1.0.9,MIT,https://www.npmjs.com/package/@types/estree/v/1.0.9,installed metadata
+npm,@types/geojson,7946.0.16,MIT,https://www.npmjs.com/package/@types/geojson/v/7946.0.16,installed metadata
+npm,@types/json-schema,7.0.15,MIT,https://www.npmjs.com/package/@types/json-schema/v/7.0.15,installed metadata
+npm,@types/json5,0.0.29,MIT,https://www.npmjs.com/package/@types/json5/v/0.0.29,installed metadata
+npm,@types/leaflet,1.9.22,MIT,https://www.npmjs.com/package/@types/leaflet/v/1.9.22,installed metadata
+npm,@types/node,24.19.0,MIT,https://www.npmjs.com/package/@types/node/v/24.19.0,installed metadata
+npm,@types/react,19.3.0,MIT,https://www.npmjs.com/package/@types/react/v/19.3.0,installed metadata
+npm,@types/react-dom,19.3.0,MIT,https://www.npmjs.com/package/@types/react-dom/v/19.3.0,installed metadata
+npm,@typescript-eslint/eslint-plugin,8.70.1,MIT,https://www.npmjs.com/package/@typescript-eslint/eslint-plugin/v/8.70.1,installed metadata
+npm,@typescript-eslint/parser,8.70.1,MIT,https://www.npmjs.com/package/@typescript-eslint/parser/v/8.70.1,installed metadata
+npm,@typescript-eslint/project-service,8.70.1,MIT,https://www.npmjs.com/package/@typescript-eslint/project-service/v/8.70.1,installed metadata
+npm,@typescript-eslint/scope-manager,8.70.1,MIT,https://www.npmjs.com/package/@typescript-eslint/scope-manager/v/8.70.1,installed metadata
+npm,@typescript-eslint/tsconfig-utils,8.70.1,MIT,https://www.npmjs.com/package/@typescript-eslint/tsconfig-utils/v/8.70.1,installed metadata
+npm,@typescript-eslint/type-utils,8.70.1,MIT,https://www.npmjs.com/package/@typescript-eslint/type-utils/v/8.70.1,installed metadata
+npm,@typescript-eslint/types,8.70.1,MIT,https://www.npmjs.com/package/@typescript-eslint/types/v/8.70.1,installed metadata
+npm,@typescript-eslint/typescript-estree,8.70.1,MIT,https://www.npmjs.com/package/@typescript-eslint/typescript-estree/v/8.70.1,installed metadata
+npm,@typescript-eslint/utils,8.70.1,MIT,https://www.npmjs.com/package/@typescript-eslint/utils/v/8.70.1,installed metadata
+npm,@typescript-eslint/visitor-keys,8.70.1,MIT,https://www.npmjs.com/package/@typescript-eslint/visitor-keys/v/8.70.1,installed metadata
+npm,@unrs/resolver-binding-android-arm-eabi,1.12.2,MIT,https://registry.npmjs.org/%40unrs%2Fresolver-binding-android-arm-eabi/1.12.2,registry metadata
+npm,@unrs/resolver-binding-android-arm64,1.12.2,MIT,https://registry.npmjs.org/%40unrs%2Fresolver-binding-android-arm64/1.12.2,registry metadata
+npm,@unrs/resolver-binding-darwin-arm64,1.12.2,MIT,https://registry.npmjs.org/%40unrs%2Fresolver-binding-darwin-arm64/1.12.2,registry metadata
+npm,@unrs/resolver-binding-darwin-x64,1.12.2,MIT,https://registry.npmjs.org/%40unrs%2Fresolver-binding-darwin-x64/1.12.2,registry metadata
+npm,@unrs/resolver-binding-freebsd-x64,1.12.2,MIT,https://registry.npmjs.org/%40unrs%2Fresolver-binding-freebsd-x64/1.12.2,registry metadata
+npm,@unrs/resolver-binding-linux-arm-gnueabihf,1.12.2,MIT,https://registry.npmjs.org/%40unrs%2Fresolver-binding-linux-arm-gnueabihf/1.12.2,registry metadata
+npm,@unrs/resolver-binding-linux-arm-musleabihf,1.12.2,MIT,https://registry.npmjs.org/%40unrs%2Fresolver-binding-linux-arm-musleabihf/1.12.2,registry metadata
+npm,@unrs/resolver-binding-linux-arm64-gnu,1.12.2,MIT,https://registry.npmjs.org/%40unrs%2Fresolver-binding-linux-arm64-gnu/1.12.2,registry metadata
+npm,@unrs/resolver-binding-linux-arm64-musl,1.12.2,MIT,https://registry.npmjs.org/%40unrs%2Fresolver-binding-linux-arm64-musl/1.12.2,registry metadata
+npm,@unrs/resolver-binding-linux-loong64-gnu,1.12.2,MIT,https://registry.npmjs.org/%40unrs%2Fresolver-binding-linux-loong64-gnu/1.12.2,registry metadata
+npm,@unrs/resolver-binding-linux-loong64-musl,1.12.2,MIT,https://registry.npmjs.org/%40unrs%2Fresolver-binding-linux-loong64-musl/1.12.2,registry metadata
+npm,@unrs/resolver-binding-linux-ppc64-gnu,1.12.2,MIT,https://registry.npmjs.org/%40unrs%2Fresolver-binding-linux-ppc64-gnu/1.12.2,registry metadata
+npm,@unrs/resolver-binding-linux-riscv64-gnu,1.12.2,MIT,https://registry.npmjs.org/%40unrs%2Fresolver-binding-linux-riscv64-gnu/1.12.2,registry metadata
+npm,@unrs/resolver-binding-linux-riscv64-musl,1.12.2,MIT,https://registry.npmjs.org/%40unrs%2Fresolver-binding-linux-riscv64-musl/1.12.2,registry metadata
+npm,@unrs/resolver-binding-linux-s390x-gnu,1.12.2,MIT,https://registry.npmjs.org/%40unrs%2Fresolver-binding-linux-s390x-gnu/1.12.2,registry metadata
+npm,@unrs/resolver-binding-linux-x64-gnu,1.12.2,MIT,https://registry.npmjs.org/%40unrs%2Fresolver-binding-linux-x64-gnu/1.12.2,registry metadata
+npm,@unrs/resolver-binding-linux-x64-musl,1.12.2,MIT,https://registry.npmjs.org/%40unrs%2Fresolver-binding-linux-x64-musl/1.12.2,registry metadata
+npm,@unrs/resolver-binding-openharmony-arm64,1.12.2,MIT,https://registry.npmjs.org/%40unrs%2Fresolver-binding-openharmony-arm64/1.12.2,registry metadata
+npm,@unrs/resolver-binding-wasm32-wasi,1.12.2,MIT,https://registry.npmjs.org/%40unrs%2Fresolver-binding-wasm32-wasi/1.12.2,registry metadata
+npm,@unrs/resolver-binding-win32-arm64-msvc,1.12.2,MIT,https://registry.npmjs.org/%40unrs%2Fresolver-binding-win32-arm64-msvc/1.12.2,registry metadata
+npm,@unrs/resolver-binding-win32-ia32-msvc,1.12.2,MIT,https://registry.npmjs.org/%40unrs%2Fresolver-binding-win32-ia32-msvc/1.12.2,registry metadata
+npm,@unrs/resolver-binding-win32-x64-msvc,1.12.2,MIT,https://www.npmjs.com/package/@unrs/resolver-binding-win32-x64-msvc/v/1.12.2,installed metadata
+npm,@vitest/mocker,5.0.2,MIT,https://www.npmjs.com/package/@vitest/mocker/v/5.0.2,installed metadata
+npm,@vitest/spy,5.0.2,MIT,https://www.npmjs.com/package/@vitest/spy/v/5.0.2,installed metadata
+npm,acorn,8.18.0,MIT,https://www.npmjs.com/package/acorn/v/8.18.0,installed metadata
+npm,acorn-jsx,5.3.2,MIT,https://www.npmjs.com/package/acorn-jsx/v/5.3.2,installed metadata
+npm,ajv,6.15.0,MIT,https://www.npmjs.com/package/ajv/v/6.15.0,installed metadata
+npm,ajv,8.17.1,MIT,https://www.npmjs.com/package/ajv/v/8.17.1,installed metadata
+npm,ajv-formats,3.0.1,MIT,https://www.npmjs.com/package/ajv-formats/v/3.0.1,installed metadata
+npm,ansi-regex,5.0.1,MIT,https://www.npmjs.com/package/ansi-regex/v/5.0.1,installed metadata
+npm,ansi-styles,4.3.0,MIT,https://www.npmjs.com/package/ansi-styles/v/4.3.0,installed metadata
+npm,ansi-styles,5.2.0,MIT,https://www.npmjs.com/package/ansi-styles/v/5.2.0,installed metadata
+npm,argparse,2.0.1,Python-2.0,https://www.npmjs.com/package/argparse/v/2.0.1,installed metadata
+npm,aria-query,5.3.0,Apache-2.0,https://www.npmjs.com/package/aria-query/v/5.3.0,installed metadata
+npm,aria-query,5.3.2,Apache-2.0,https://www.npmjs.com/package/aria-query/v/5.3.2,installed metadata
+npm,array-buffer-byte-length,1.0.2,MIT,https://www.npmjs.com/package/array-buffer-byte-length/v/1.0.2,installed metadata
+npm,array-includes,3.2.0,MIT,https://www.npmjs.com/package/array-includes/v/3.2.0,installed metadata
+npm,array.prototype.findlast,1.2.5,MIT,https://www.npmjs.com/package/array.prototype.findlast/v/1.2.5,installed metadata
+npm,array.prototype.findlastindex,1.2.6,MIT,https://www.npmjs.com/package/array.prototype.findlastindex/v/1.2.6,installed metadata
+npm,array.prototype.flat,1.3.3,MIT,https://www.npmjs.com/package/array.prototype.flat/v/1.3.3,installed metadata
+npm,array.prototype.flatmap,1.3.3,MIT,https://www.npmjs.com/package/array.prototype.flatmap/v/1.3.3,installed metadata
+npm,array.prototype.tosorted,1.1.4,MIT,https://www.npmjs.com/package/array.prototype.tosorted/v/1.1.4,installed metadata
+npm,arraybuffer.prototype.slice,1.0.4,MIT,https://www.npmjs.com/package/arraybuffer.prototype.slice/v/1.0.4,installed metadata
+npm,assertion-error,2.0.1,MIT,https://www.npmjs.com/package/assertion-error/v/2.0.1,installed metadata
+npm,ast-types-flow,0.0.8,MIT,https://www.npmjs.com/package/ast-types-flow/v/0.0.8,installed metadata
+npm,async-function,1.0.0,MIT,https://www.npmjs.com/package/async-function/v/1.0.0,installed metadata
+npm,available-typed-arrays,1.0.7,MIT,https://www.npmjs.com/package/available-typed-arrays/v/1.0.7,installed metadata
+npm,axe-core,4.13.0,MPL-2.0,https://www.npmjs.com/package/axe-core/v/4.13.0,installed metadata
+npm,axobject-query,4.1.0,Apache-2.0,https://www.npmjs.com/package/axobject-query/v/4.1.0,installed metadata
+npm,balanced-match,1.0.2,MIT,https://www.npmjs.com/package/balanced-match/v/1.0.2,installed metadata
+npm,balanced-match,4.0.4,MIT,https://www.npmjs.com/package/balanced-match/v/4.0.4,installed metadata
+npm,baseline-browser-mapping,2.11.26,Apache-2.0,https://www.npmjs.com/package/baseline-browser-mapping/v/2.11.26,installed metadata
+npm,bidi-js,1.1.0,MIT,https://www.npmjs.com/package/bidi-js/v/1.1.0,installed metadata
+npm,brace-expansion,1.1.21,MIT,https://www.npmjs.com/package/brace-expansion/v/1.1.21,installed metadata
+npm,brace-expansion,5.0.12,MIT,https://www.npmjs.com/package/brace-expansion/v/5.0.12,installed metadata
+npm,braces,3.0.3,MIT,https://www.npmjs.com/package/braces/v/3.0.3,installed metadata
+npm,browserslist,4.29.1,MIT,https://www.npmjs.com/package/browserslist/v/4.29.1,installed metadata
+npm,call-bind,1.0.9,MIT,https://www.npmjs.com/package/call-bind/v/1.0.9,installed metadata
+npm,call-bind-apply-helpers,1.0.2,MIT,https://www.npmjs.com/package/call-bind-apply-helpers/v/1.0.2,installed metadata
+npm,call-bound,1.0.4,MIT,https://www.npmjs.com/package/call-bound/v/1.0.4,installed metadata
+npm,callsites,3.1.0,MIT,https://www.npmjs.com/package/callsites/v/3.1.0,installed metadata
+npm,caniuse-lite,1.0.30001812,CC-BY-4.0,https://www.npmjs.com/package/caniuse-lite/v/1.0.30001812,installed metadata
+npm,chai,6.2.2,MIT,https://www.npmjs.com/package/chai/v/6.2.2,installed metadata
+npm,chalk,4.1.2,MIT,https://www.npmjs.com/package/chalk/v/4.1.2,installed metadata
+npm,client-only,0.0.1,MIT,https://www.npmjs.com/package/client-only/v/0.0.1,installed metadata
+npm,color-convert,2.0.1,MIT,https://www.npmjs.com/package/color-convert/v/2.0.1,installed metadata
+npm,color-name,1.1.4,MIT,https://www.npmjs.com/package/color-name/v/1.1.4,installed metadata
+npm,concat-map,0.0.1,MIT,https://www.npmjs.com/package/concat-map/v/0.0.1,installed metadata
+npm,content-type,2.1.0,MIT,https://www.npmjs.com/package/content-type/v/2.1.0,installed metadata
+npm,convert-source-map,2.0.0,MIT,https://www.npmjs.com/package/convert-source-map/v/2.0.0,installed metadata
+npm,cross-spawn,7.0.6,MIT,https://www.npmjs.com/package/cross-spawn/v/7.0.6,installed metadata
+npm,css-tree,3.2.1,MIT,https://www.npmjs.com/package/css-tree/v/3.2.1,installed metadata
+npm,css.escape,1.5.1,MIT,https://www.npmjs.com/package/css.escape/v/1.5.1,installed metadata
+npm,csstype,3.2.3,MIT,https://www.npmjs.com/package/csstype/v/3.2.3,installed metadata
+npm,damerau-levenshtein,1.0.8,BSD-2-Clause,https://www.npmjs.com/package/damerau-levenshtein/v/1.0.8,installed metadata
+npm,data-urls,7.0.0,MIT,https://www.npmjs.com/package/data-urls/v/7.0.0,installed metadata
+npm,data-view-buffer,1.0.2,MIT,https://www.npmjs.com/package/data-view-buffer/v/1.0.2,installed metadata
+npm,data-view-byte-length,1.0.2,MIT,https://www.npmjs.com/package/data-view-byte-length/v/1.0.2,installed metadata
+npm,data-view-byte-offset,1.0.1,MIT,https://www.npmjs.com/package/data-view-byte-offset/v/1.0.1,installed metadata
+npm,debug,3.2.7,MIT,https://www.npmjs.com/package/debug/v/3.2.7,installed metadata
+npm,debug,4.4.3,MIT,https://www.npmjs.com/package/debug/v/4.4.3,installed metadata
+npm,decimal.js,10.6.0,MIT,https://www.npmjs.com/package/decimal.js/v/10.6.0,installed metadata
+npm,deep-is,0.1.4,MIT,https://www.npmjs.com/package/deep-is/v/0.1.4,installed metadata
+npm,define-data-property,1.1.4,MIT,https://www.npmjs.com/package/define-data-property/v/1.1.4,installed metadata
+npm,define-properties,1.2.1,MIT,https://www.npmjs.com/package/define-properties/v/1.2.1,installed metadata
+npm,dequal,2.0.3,MIT,https://www.npmjs.com/package/dequal/v/2.0.3,installed metadata
+npm,detect-libc,2.1.2,Apache-2.0,https://www.npmjs.com/package/detect-libc/v/2.1.2,installed metadata
+npm,dexie,4.4.6,Apache-2.0,https://www.npmjs.com/package/dexie/v/4.4.6,installed metadata
+npm,dexie-react-hooks,4.4.0,Apache-2.0,https://www.npmjs.com/package/dexie-react-hooks/v/4.4.0,installed metadata
+npm,doctrine,2.1.0,Apache-2.0,https://www.npmjs.com/package/doctrine/v/2.1.0,installed metadata
+npm,dom-accessibility-api,0.5.16,MIT,https://www.npmjs.com/package/dom-accessibility-api/v/0.5.16,installed metadata
+npm,dom-accessibility-api,0.6.3,MIT,https://www.npmjs.com/package/dom-accessibility-api/v/0.6.3,installed metadata
+npm,dunder-proto,1.0.1,MIT,https://www.npmjs.com/package/dunder-proto/v/1.0.1,installed metadata
+npm,electron-to-chromium,1.5.439,ISC,https://www.npmjs.com/package/electron-to-chromium/v/1.5.439,installed metadata
+npm,emoji-regex,9.2.2,MIT,https://www.npmjs.com/package/emoji-regex/v/9.2.2,installed metadata
+npm,enhanced-resolve,5.25.1,MIT,https://www.npmjs.com/package/enhanced-resolve/v/5.25.1,installed metadata
+npm,entities,8.1.0,BSD-2-Clause,https://www.npmjs.com/package/entities/v/8.1.0,installed metadata
+npm,es-abstract,1.24.2,MIT,https://www.npmjs.com/package/es-abstract/v/1.24.2,installed metadata
+npm,es-abstract-get,1.0.0,MIT,https://www.npmjs.com/package/es-abstract-get/v/1.0.0,installed metadata
+npm,es-define-property,1.0.1,MIT,https://www.npmjs.com/package/es-define-property/v/1.0.1,installed metadata
+npm,es-errors,1.3.0,MIT,https://www.npmjs.com/package/es-errors/v/1.3.0,installed metadata
+npm,es-iterator-helpers,1.4.0,MIT,https://www.npmjs.com/package/es-iterator-helpers/v/1.4.0,installed metadata
+npm,es-module-lexer,2.3.2,MIT,https://www.npmjs.com/package/es-module-lexer/v/2.3.2,installed metadata
+npm,es-object-atoms,1.1.2,MIT,https://www.npmjs.com/package/es-object-atoms/v/1.1.2,installed metadata
+npm,es-set-tostringtag,2.1.0,MIT,https://www.npmjs.com/package/es-set-tostringtag/v/2.1.0,installed metadata
+npm,es-shim-unscopables,1.1.0,MIT,https://www.npmjs.com/package/es-shim-unscopables/v/1.1.0,installed metadata
+npm,es-to-primitive,1.3.4,MIT,https://www.npmjs.com/package/es-to-primitive/v/1.3.4,installed metadata
+npm,escalade,3.2.0,MIT,https://www.npmjs.com/package/escalade/v/3.2.0,installed metadata
+npm,escape-string-regexp,4.0.0,MIT,https://www.npmjs.com/package/escape-string-regexp/v/4.0.0,installed metadata
+npm,eslint,9.39.5,MIT,https://www.npmjs.com/package/eslint/v/9.39.5,installed metadata
+npm,eslint-config-next,16.3.6,MIT,https://www.npmjs.com/package/eslint-config-next/v/16.3.6,installed metadata
+npm,eslint-import-resolver-node,0.3.10,MIT,https://www.npmjs.com/package/eslint-import-resolver-node/v/0.3.10,installed metadata
+npm,eslint-import-resolver-typescript,3.10.1,ISC,https://www.npmjs.com/package/eslint-import-resolver-typescript/v/3.10.1,installed metadata
+npm,eslint-module-utils,2.14.0,MIT,https://www.npmjs.com/package/eslint-module-utils/v/2.14.0,installed metadata
+npm,eslint-plugin-import,2.32.0,MIT,https://www.npmjs.com/package/eslint-plugin-import/v/2.32.0,installed metadata
+npm,eslint-plugin-jsx-a11y,6.10.2,MIT,https://www.npmjs.com/package/eslint-plugin-jsx-a11y/v/6.10.2,installed metadata
+npm,eslint-plugin-react,7.37.5,MIT,https://www.npmjs.com/package/eslint-plugin-react/v/7.37.5,installed metadata
+npm,eslint-plugin-react-hooks,7.1.1,MIT,https://www.npmjs.com/package/eslint-plugin-react-hooks/v/7.1.1,installed metadata
+npm,eslint-scope,8.4.0,BSD-2-Clause,https://www.npmjs.com/package/eslint-scope/v/8.4.0,installed metadata
+npm,eslint-visitor-keys,3.4.3,Apache-2.0,https://www.npmjs.com/package/eslint-visitor-keys/v/3.4.3,installed metadata
+npm,eslint-visitor-keys,4.2.1,Apache-2.0,https://www.npmjs.com/package/eslint-visitor-keys/v/4.2.1,installed metadata
+npm,eslint-visitor-keys,5.0.1,Apache-2.0,https://www.npmjs.com/package/eslint-visitor-keys/v/5.0.1,installed metadata
+npm,espree,10.4.0,BSD-2-Clause,https://www.npmjs.com/package/espree/v/10.4.0,installed metadata
+npm,esquery,1.7.0,BSD-3-Clause,https://www.npmjs.com/package/esquery/v/1.7.0,installed metadata
+npm,esrecurse,4.3.0,BSD-2-Clause,https://www.npmjs.com/package/esrecurse/v/4.3.0,installed metadata
+npm,estraverse,5.3.0,BSD-2-Clause,https://www.npmjs.com/package/estraverse/v/5.3.0,installed metadata
+npm,estree-walker,3.0.3,MIT,https://www.npmjs.com/package/estree-walker/v/3.0.3,installed metadata
+npm,esutils,2.0.3,BSD-2-Clause,https://www.npmjs.com/package/esutils/v/2.0.3,installed metadata
+npm,expect-type,1.4.0,Apache-2.0,https://www.npmjs.com/package/expect-type/v/1.4.0,installed metadata
+npm,fake-indexeddb,6.2.5,Apache-2.0,https://www.npmjs.com/package/fake-indexeddb/v/6.2.5,installed metadata
+npm,fast-deep-equal,3.1.3,MIT,https://www.npmjs.com/package/fast-deep-equal/v/3.1.3,installed metadata
+npm,fast-glob,3.3.1,MIT,https://www.npmjs.com/package/fast-glob/v/3.3.1,installed metadata
+npm,fast-json-stable-stringify,2.1.0,MIT,https://www.npmjs.com/package/fast-json-stable-stringify/v/2.1.0,installed metadata
+npm,fast-levenshtein,2.0.6,MIT,https://www.npmjs.com/package/fast-levenshtein/v/2.0.6,installed metadata
+npm,fast-uri,3.1.8,BSD-3-Clause,https://www.npmjs.com/package/fast-uri/v/3.1.8,installed metadata
+npm,fastq,1.20.3,ISC,https://www.npmjs.com/package/fastq/v/1.20.3,installed metadata
+npm,fdir,6.5.0,MIT,https://www.npmjs.com/package/fdir/v/6.5.0,installed metadata
+npm,file-entry-cache,8.0.0,MIT,https://www.npmjs.com/package/file-entry-cache/v/8.0.0,installed metadata
+npm,fill-range,7.1.1,MIT,https://www.npmjs.com/package/fill-range/v/7.1.1,installed metadata
+npm,find-up,5.0.0,MIT,https://www.npmjs.com/package/find-up/v/5.0.0,installed metadata
+npm,flat-cache,4.0.1,MIT,https://www.npmjs.com/package/flat-cache/v/4.0.1,installed metadata
+npm,flatted,3.4.4,ISC,https://www.npmjs.com/package/flatted/v/3.4.4,installed metadata
+npm,for-each,0.3.5,MIT,https://www.npmjs.com/package/for-each/v/0.3.5,installed metadata
+npm,fsevents,2.3.3,MIT,https://registry.npmjs.org/fsevents/2.3.3,registry metadata
+npm,function-bind,1.1.2,MIT,https://www.npmjs.com/package/function-bind/v/1.1.2,installed metadata
+npm,function.prototype.name,1.2.0,MIT,https://www.npmjs.com/package/function.prototype.name/v/1.2.0,installed metadata
+npm,functions-have-names,1.2.3,MIT,https://www.npmjs.com/package/functions-have-names/v/1.2.3,installed metadata
+npm,generator-function,2.0.1,MIT,https://www.npmjs.com/package/generator-function/v/2.0.1,installed metadata
+npm,gensync,1.0.0-beta.2,MIT,https://www.npmjs.com/package/gensync/v/1.0.0-beta.2,installed metadata
+npm,get-intrinsic,1.3.0,MIT,https://www.npmjs.com/package/get-intrinsic/v/1.3.0,installed metadata
+npm,get-proto,1.0.1,MIT,https://www.npmjs.com/package/get-proto/v/1.0.1,installed metadata
+npm,get-symbol-description,1.1.0,MIT,https://www.npmjs.com/package/get-symbol-description/v/1.1.0,installed metadata
+npm,get-tsconfig,4.14.3,MIT,https://www.npmjs.com/package/get-tsconfig/v/4.14.3,installed metadata
+npm,glob-parent,5.1.2,ISC,https://www.npmjs.com/package/glob-parent/v/5.1.2,installed metadata
+npm,glob-parent,6.0.2,ISC,https://www.npmjs.com/package/glob-parent/v/6.0.2,installed metadata
+npm,globals,14.0.0,MIT,https://www.npmjs.com/package/globals/v/14.0.0,installed metadata
+npm,globals,16.4.0,MIT,https://www.npmjs.com/package/globals/v/16.4.0,installed metadata
+npm,globalthis,1.0.4,MIT,https://www.npmjs.com/package/globalthis/v/1.0.4,installed metadata
+npm,gopd,1.2.0,MIT,https://www.npmjs.com/package/gopd/v/1.2.0,installed metadata
+npm,graceful-fs,4.2.11,ISC,https://www.npmjs.com/package/graceful-fs/v/4.2.11,installed metadata
+npm,has-bigints,1.1.0,MIT,https://www.npmjs.com/package/has-bigints/v/1.1.0,installed metadata
+npm,has-flag,4.0.0,MIT,https://www.npmjs.com/package/has-flag/v/4.0.0,installed metadata
+npm,has-property-descriptors,1.0.2,MIT,https://www.npmjs.com/package/has-property-descriptors/v/1.0.2,installed metadata
+npm,has-proto,1.2.0,MIT,https://www.npmjs.com/package/has-proto/v/1.2.0,installed metadata
+npm,has-symbols,1.1.0,MIT,https://www.npmjs.com/package/has-symbols/v/1.1.0,installed metadata
+npm,has-tostringtag,1.0.2,MIT,https://www.npmjs.com/package/has-tostringtag/v/1.0.2,installed metadata
+npm,hasown,2.0.4,MIT,https://www.npmjs.com/package/hasown/v/2.0.4,installed metadata
+npm,hermes-estree,0.25.1,MIT,https://www.npmjs.com/package/hermes-estree/v/0.25.1,installed metadata
+npm,hermes-parser,0.25.1,MIT,https://www.npmjs.com/package/hermes-parser/v/0.25.1,installed metadata
+npm,html-encoding-sniffer,7.0.0,MIT,https://www.npmjs.com/package/html-encoding-sniffer/v/7.0.0,installed metadata
+npm,icu-minify,4.14.7,MIT,https://www.npmjs.com/package/icu-minify/v/4.14.7,installed metadata
+npm,ignore,5.3.2,MIT,https://www.npmjs.com/package/ignore/v/5.3.2,installed metadata
+npm,ignore,7.0.10,MIT,https://www.npmjs.com/package/ignore/v/7.0.10,installed metadata
+npm,import-fresh,3.3.1,MIT,https://www.npmjs.com/package/import-fresh/v/3.3.1,installed metadata
+npm,imurmurhash,0.1.4,MIT,https://www.npmjs.com/package/imurmurhash/v/0.1.4,installed metadata
+npm,indent-string,4.0.0,MIT,https://www.npmjs.com/package/indent-string/v/4.0.0,installed metadata
+npm,internal-slot,1.1.0,MIT,https://www.npmjs.com/package/internal-slot/v/1.1.0,installed metadata
+npm,intl-messageformat,11.2.15,BSD-3-Clause,https://www.npmjs.com/package/intl-messageformat/v/11.2.15,installed metadata
+npm,is-array-buffer,3.0.5,MIT,https://www.npmjs.com/package/is-array-buffer/v/3.0.5,installed metadata
+npm,is-async-function,2.1.1,MIT,https://www.npmjs.com/package/is-async-function/v/2.1.1,installed metadata
+npm,is-bigint,1.1.0,MIT,https://www.npmjs.com/package/is-bigint/v/1.1.0,installed metadata
+npm,is-boolean-object,1.2.2,MIT,https://www.npmjs.com/package/is-boolean-object/v/1.2.2,installed metadata
+npm,is-bun-module,2.0.0,MIT,https://www.npmjs.com/package/is-bun-module/v/2.0.0,installed metadata
+npm,is-callable,1.2.7,MIT,https://www.npmjs.com/package/is-callable/v/1.2.7,installed metadata
+npm,is-core-module,2.17.0,MIT,https://www.npmjs.com/package/is-core-module/v/2.17.0,installed metadata
+npm,is-data-view,1.0.2,MIT,https://www.npmjs.com/package/is-data-view/v/1.0.2,installed metadata
+npm,is-date-object,1.1.0,MIT,https://www.npmjs.com/package/is-date-object/v/1.1.0,installed metadata
+npm,is-document.all,1.0.0,MIT,https://www.npmjs.com/package/is-document.all/v/1.0.0,installed metadata
+npm,is-extglob,2.1.1,MIT,https://www.npmjs.com/package/is-extglob/v/2.1.1,installed metadata
+npm,is-finalizationregistry,1.1.1,MIT,https://www.npmjs.com/package/is-finalizationregistry/v/1.1.1,installed metadata
+npm,is-generator-function,1.1.2,MIT,https://www.npmjs.com/package/is-generator-function/v/1.1.2,installed metadata
+npm,is-glob,4.0.3,MIT,https://www.npmjs.com/package/is-glob/v/4.0.3,installed metadata
+npm,is-map,2.0.3,MIT,https://www.npmjs.com/package/is-map/v/2.0.3,installed metadata
+npm,is-negative-zero,2.0.3,MIT,https://www.npmjs.com/package/is-negative-zero/v/2.0.3,installed metadata
+npm,is-number,7.0.0,MIT,https://www.npmjs.com/package/is-number/v/7.0.0,installed metadata
+npm,is-number-object,1.1.1,MIT,https://www.npmjs.com/package/is-number-object/v/1.1.1,installed metadata
+npm,is-potential-custom-element-name,1.0.1,MIT,https://www.npmjs.com/package/is-potential-custom-element-name/v/1.0.1,installed metadata
+npm,is-regex,1.2.1,MIT,https://www.npmjs.com/package/is-regex/v/1.2.1,installed metadata
+npm,is-set,2.0.3,MIT,https://www.npmjs.com/package/is-set/v/2.0.3,installed metadata
+npm,is-shared-array-buffer,1.0.4,MIT,https://www.npmjs.com/package/is-shared-array-buffer/v/1.0.4,installed metadata
+npm,is-string,1.1.1,MIT,https://www.npmjs.com/package/is-string/v/1.1.1,installed metadata
+npm,is-symbol,1.1.1,MIT,https://www.npmjs.com/package/is-symbol/v/1.1.1,installed metadata
+npm,is-typed-array,1.1.15,MIT,https://www.npmjs.com/package/is-typed-array/v/1.1.15,installed metadata
+npm,is-weakmap,2.0.2,MIT,https://www.npmjs.com/package/is-weakmap/v/2.0.2,installed metadata
+npm,is-weakref,1.1.1,MIT,https://www.npmjs.com/package/is-weakref/v/1.1.1,installed metadata
+npm,is-weakset,2.0.4,MIT,https://www.npmjs.com/package/is-weakset/v/2.0.4,installed metadata
+npm,isarray,2.0.5,MIT,https://www.npmjs.com/package/isarray/v/2.0.5,installed metadata
+npm,isexe,2.0.0,ISC,https://www.npmjs.com/package/isexe/v/2.0.0,installed metadata
+npm,iterator.prototype,1.1.5,MIT,https://www.npmjs.com/package/iterator.prototype/v/1.1.5,installed metadata
+npm,jiti,2.7.0,MIT,https://www.npmjs.com/package/jiti/v/2.7.0,installed metadata
+npm,js-tokens,4.0.0,MIT,https://www.npmjs.com/package/js-tokens/v/4.0.0,installed metadata
+npm,js-yaml,4.3.2,MIT,https://www.npmjs.com/package/js-yaml/v/4.3.2,installed metadata
+npm,jsdom,30.1.1,MIT,https://www.npmjs.com/package/jsdom/v/30.1.1,installed metadata
+npm,jsesc,3.1.0,MIT,https://www.npmjs.com/package/jsesc/v/3.1.0,installed metadata
+npm,json-buffer,3.0.1,MIT,https://www.npmjs.com/package/json-buffer/v/3.0.1,installed metadata
+npm,json-schema-traverse,0.4.1,MIT,https://www.npmjs.com/package/json-schema-traverse/v/0.4.1,installed metadata
+npm,json-schema-traverse,1.0.0,MIT,https://www.npmjs.com/package/json-schema-traverse/v/1.0.0,installed metadata
+npm,json-stable-stringify-without-jsonify,1.0.1,MIT,https://www.npmjs.com/package/json-stable-stringify-without-jsonify/v/1.0.1,installed metadata
+npm,json5,1.0.2,MIT,https://www.npmjs.com/package/json5/v/1.0.2,installed metadata
+npm,json5,2.2.3,MIT,https://www.npmjs.com/package/json5/v/2.2.3,installed metadata
+npm,jsx-ast-utils,3.3.5,MIT,https://www.npmjs.com/package/jsx-ast-utils/v/3.3.5,installed metadata
+npm,keyv,4.5.4,MIT,https://www.npmjs.com/package/keyv/v/4.5.4,installed metadata
+npm,language-subtag-registry,0.3.23,CC0-1.0,https://www.npmjs.com/package/language-subtag-registry/v/0.3.23,installed metadata
+npm,language-tags,1.0.9,MIT,https://www.npmjs.com/package/language-tags/v/1.0.9,installed metadata
+npm,leaflet,1.9.4,BSD-2-Clause,https://www.npmjs.com/package/leaflet/v/1.9.4,installed metadata
+npm,levn,0.4.1,MIT,https://www.npmjs.com/package/levn/v/0.4.1,installed metadata
+npm,lightningcss,1.32.0,MPL-2.0,https://www.npmjs.com/package/lightningcss/v/1.32.0,installed metadata
+npm,lightningcss,1.33.0,MPL-2.0,https://www.npmjs.com/package/lightningcss/v/1.33.0,installed metadata
+npm,lightningcss-android-arm64,1.32.0,MPL-2.0,https://registry.npmjs.org/lightningcss-android-arm64/1.32.0,registry metadata
+npm,lightningcss-android-arm64,1.33.0,MPL-2.0,https://registry.npmjs.org/lightningcss-android-arm64/1.33.0,registry metadata
+npm,lightningcss-darwin-arm64,1.32.0,MPL-2.0,https://registry.npmjs.org/lightningcss-darwin-arm64/1.32.0,registry metadata
+npm,lightningcss-darwin-arm64,1.33.0,MPL-2.0,https://registry.npmjs.org/lightningcss-darwin-arm64/1.33.0,registry metadata
+npm,lightningcss-darwin-x64,1.32.0,MPL-2.0,https://registry.npmjs.org/lightningcss-darwin-x64/1.32.0,registry metadata
+npm,lightningcss-darwin-x64,1.33.0,MPL-2.0,https://registry.npmjs.org/lightningcss-darwin-x64/1.33.0,registry metadata
+npm,lightningcss-freebsd-x64,1.32.0,MPL-2.0,https://registry.npmjs.org/lightningcss-freebsd-x64/1.32.0,registry metadata
+npm,lightningcss-freebsd-x64,1.33.0,MPL-2.0,https://registry.npmjs.org/lightningcss-freebsd-x64/1.33.0,registry metadata
+npm,lightningcss-linux-arm-gnueabihf,1.32.0,MPL-2.0,https://registry.npmjs.org/lightningcss-linux-arm-gnueabihf/1.32.0,registry metadata
+npm,lightningcss-linux-arm-gnueabihf,1.33.0,MPL-2.0,https://registry.npmjs.org/lightningcss-linux-arm-gnueabihf/1.33.0,registry metadata
+npm,lightningcss-linux-arm64-gnu,1.32.0,MPL-2.0,https://registry.npmjs.org/lightningcss-linux-arm64-gnu/1.32.0,registry metadata
+npm,lightningcss-linux-arm64-gnu,1.33.0,MPL-2.0,https://registry.npmjs.org/lightningcss-linux-arm64-gnu/1.33.0,registry metadata
+npm,lightningcss-linux-arm64-musl,1.32.0,MPL-2.0,https://registry.npmjs.org/lightningcss-linux-arm64-musl/1.32.0,registry metadata
+npm,lightningcss-linux-arm64-musl,1.33.0,MPL-2.0,https://registry.npmjs.org/lightningcss-linux-arm64-musl/1.33.0,registry metadata
+npm,lightningcss-linux-x64-gnu,1.32.0,MPL-2.0,https://registry.npmjs.org/lightningcss-linux-x64-gnu/1.32.0,registry metadata
+npm,lightningcss-linux-x64-gnu,1.33.0,MPL-2.0,https://registry.npmjs.org/lightningcss-linux-x64-gnu/1.33.0,registry metadata
+npm,lightningcss-linux-x64-musl,1.32.0,MPL-2.0,https://registry.npmjs.org/lightningcss-linux-x64-musl/1.32.0,registry metadata
+npm,lightningcss-linux-x64-musl,1.33.0,MPL-2.0,https://registry.npmjs.org/lightningcss-linux-x64-musl/1.33.0,registry metadata
+npm,lightningcss-win32-arm64-msvc,1.32.0,MPL-2.0,https://registry.npmjs.org/lightningcss-win32-arm64-msvc/1.32.0,registry metadata
+npm,lightningcss-win32-arm64-msvc,1.33.0,MPL-2.0,https://registry.npmjs.org/lightningcss-win32-arm64-msvc/1.33.0,registry metadata
+npm,lightningcss-win32-x64-msvc,1.32.0,MPL-2.0,https://www.npmjs.com/package/lightningcss-win32-x64-msvc/v/1.32.0,installed metadata
+npm,lightningcss-win32-x64-msvc,1.33.0,MPL-2.0,https://www.npmjs.com/package/lightningcss-win32-x64-msvc/v/1.33.0,installed metadata
+npm,locate-path,6.0.0,MIT,https://www.npmjs.com/package/locate-path/v/6.0.0,installed metadata
+npm,lodash.merge,4.6.2,MIT,https://www.npmjs.com/package/lodash.merge/v/4.6.2,installed metadata
+npm,loose-envify,1.4.0,MIT,https://www.npmjs.com/package/loose-envify/v/1.4.0,installed metadata
+npm,lru-cache,11.5.3,BlueOak-1.0.0,https://www.npmjs.com/package/lru-cache/v/11.5.3,installed metadata
+npm,lru-cache,5.1.1,ISC,https://www.npmjs.com/package/lru-cache/v/5.1.1,installed metadata
+npm,lz-string,1.5.0,MIT,https://www.npmjs.com/package/lz-string/v/1.5.0,installed metadata
+npm,magic-string,0.30.21,MIT,https://www.npmjs.com/package/magic-string/v/0.30.21,installed metadata
+npm,magic-string,1.4.2,MIT,https://www.npmjs.com/package/magic-string/v/1.4.2,installed metadata
+npm,math-intrinsics,1.1.0,MIT,https://www.npmjs.com/package/math-intrinsics/v/1.1.0,installed metadata
+npm,mdn-data,2.27.1,CC0-1.0,https://www.npmjs.com/package/mdn-data/v/2.27.1,installed metadata
+npm,merge2,1.4.1,MIT,https://www.npmjs.com/package/merge2/v/1.4.1,installed metadata
+npm,micromatch,4.0.8,MIT,https://www.npmjs.com/package/micromatch/v/4.0.8,installed metadata
+npm,min-indent,1.0.1,MIT,https://www.npmjs.com/package/min-indent/v/1.0.1,installed metadata
+npm,minimatch,10.2.6,BlueOak-1.0.0,https://www.npmjs.com/package/minimatch/v/10.2.6,installed metadata
+npm,minimatch,3.1.5,ISC,https://www.npmjs.com/package/minimatch/v/3.1.5,installed metadata
+npm,minimist,1.2.8,MIT,https://www.npmjs.com/package/minimist/v/1.2.8,installed metadata
+npm,ms,2.1.3,MIT,https://www.npmjs.com/package/ms/v/2.1.3,installed metadata
+npm,nanoid,3.3.19,MIT,https://www.npmjs.com/package/nanoid/v/3.3.19,installed metadata
+npm,napi-postinstall,0.3.4,MIT,https://www.npmjs.com/package/napi-postinstall/v/0.3.4,installed metadata
+npm,natural-compare,1.4.0,MIT,https://www.npmjs.com/package/natural-compare/v/1.4.0,installed metadata
+npm,negotiator,1.1.0,MIT,https://www.npmjs.com/package/negotiator/v/1.1.0,installed metadata
+npm,next,16.3.6,MIT,https://www.npmjs.com/package/next/v/16.3.6,installed metadata
+npm,next-intl,4.14.7,MIT,https://www.npmjs.com/package/next-intl/v/4.14.7,installed metadata
+npm,next-intl-swc-plugin-extractor,4.14.7,MIT,https://www.npmjs.com/package/next-intl-swc-plugin-extractor/v/4.14.7,installed metadata
+npm,node-addon-api,7.1.1,MIT,https://www.npmjs.com/package/node-addon-api/v/7.1.1,installed metadata
+npm,node-exports-info,1.6.2,MIT,https://www.npmjs.com/package/node-exports-info/v/1.6.2,installed metadata
+npm,node-releases,2.0.57,MIT,https://www.npmjs.com/package/node-releases/v/2.0.57,installed metadata
+npm,object-assign,4.1.1,MIT,https://www.npmjs.com/package/object-assign/v/4.1.1,installed metadata
+npm,object-inspect,1.13.4,MIT,https://www.npmjs.com/package/object-inspect/v/1.13.4,installed metadata
+npm,object-keys,1.1.1,MIT,https://www.npmjs.com/package/object-keys/v/1.1.1,installed metadata
+npm,object.assign,4.1.7,MIT,https://www.npmjs.com/package/object.assign/v/4.1.7,installed metadata
+npm,object.entries,1.1.9,MIT,https://www.npmjs.com/package/object.entries/v/1.1.9,installed metadata
+npm,object.fromentries,2.0.8,MIT,https://www.npmjs.com/package/object.fromentries/v/2.0.8,installed metadata
+npm,object.groupby,1.0.3,MIT,https://www.npmjs.com/package/object.groupby/v/1.0.3,installed metadata
+npm,object.values,1.2.1,MIT,https://www.npmjs.com/package/object.values/v/1.2.1,installed metadata
+npm,obug,2.2.1,MIT,https://www.npmjs.com/package/obug/v/2.2.1,installed metadata
+npm,optionator,0.9.4,MIT,https://www.npmjs.com/package/optionator/v/0.9.4,installed metadata
+npm,own-keys,1.0.2,MIT,https://www.npmjs.com/package/own-keys/v/1.0.2,installed metadata
+npm,p-limit,3.1.0,MIT,https://www.npmjs.com/package/p-limit/v/3.1.0,installed metadata
+npm,p-locate,5.0.0,MIT,https://www.npmjs.com/package/p-locate/v/5.0.0,installed metadata
+npm,parent-module,1.0.1,MIT,https://www.npmjs.com/package/parent-module/v/1.0.1,installed metadata
+npm,parse5,8.0.1,MIT,https://www.npmjs.com/package/parse5/v/8.0.1,installed metadata
+npm,path-exists,4.0.0,MIT,https://www.npmjs.com/package/path-exists/v/4.0.0,installed metadata
+npm,path-key,3.1.1,MIT,https://www.npmjs.com/package/path-key/v/3.1.1,installed metadata
+npm,path-parse,1.0.7,MIT,https://www.npmjs.com/package/path-parse/v/1.0.7,installed metadata
+npm,picocolors,1.1.1,ISC,https://www.npmjs.com/package/picocolors/v/1.1.1,installed metadata
+npm,picomatch,2.3.2,MIT,https://www.npmjs.com/package/picomatch/v/2.3.2,installed metadata
+npm,picomatch,4.0.7,MIT,https://www.npmjs.com/package/picomatch/v/4.0.7,installed metadata
+npm,playwright,1.63.0,Apache-2.0,https://www.npmjs.com/package/playwright/v/1.63.0,installed metadata
+npm,playwright-core,1.63.0,Apache-2.0,https://www.npmjs.com/package/playwright-core/v/1.63.0,installed metadata
+npm,po-parser,2.2.0,MIT,https://www.npmjs.com/package/po-parser/v/2.2.0,installed metadata
+npm,possible-typed-array-names,1.1.0,MIT,https://www.npmjs.com/package/possible-typed-array-names/v/1.1.0,installed metadata
+npm,postcss,8.5.23,MIT,https://www.npmjs.com/package/postcss/v/8.5.23,installed metadata
+npm,postcss,8.5.28,MIT,https://www.npmjs.com/package/postcss/v/8.5.28,installed metadata
+npm,prelude-ls,1.2.1,MIT,https://www.npmjs.com/package/prelude-ls/v/1.2.1,installed metadata
+npm,pretty-format,27.5.1,MIT,https://www.npmjs.com/package/pretty-format/v/27.5.1,installed metadata
+npm,prop-types,15.8.1,MIT,https://www.npmjs.com/package/prop-types/v/15.8.1,installed metadata
+npm,punycode,2.3.1,MIT,https://www.npmjs.com/package/punycode/v/2.3.1,installed metadata
+npm,queue-microtask,1.2.3,MIT,https://www.npmjs.com/package/queue-microtask/v/1.2.3,installed metadata
+npm,react,19.3.0,MIT,https://www.npmjs.com/package/react/v/19.3.0,installed metadata
+npm,react-dom,19.3.0,MIT,https://www.npmjs.com/package/react-dom/v/19.3.0,installed metadata
+npm,react-hook-form,7.89.0,MIT,https://www.npmjs.com/package/react-hook-form/v/7.89.0,installed metadata
+npm,react-is,16.13.1,MIT,https://www.npmjs.com/package/react-is/v/16.13.1,installed metadata
+npm,react-is,17.0.2,MIT,https://www.npmjs.com/package/react-is/v/17.0.2,installed metadata
+npm,redent,3.0.0,MIT,https://www.npmjs.com/package/redent/v/3.0.0,installed metadata
+npm,reflect.getprototypeof,1.0.10,MIT,https://www.npmjs.com/package/reflect.getprototypeof/v/1.0.10,installed metadata
+npm,regexp.prototype.flags,1.5.4,MIT,https://www.npmjs.com/package/regexp.prototype.flags/v/1.5.4,installed metadata
+npm,require-from-string,2.0.2,MIT,https://www.npmjs.com/package/require-from-string/v/2.0.2,installed metadata
+npm,resolve,2.0.0-next.7,MIT,https://www.npmjs.com/package/resolve/v/2.0.0-next.7,installed metadata
+npm,resolve-from,4.0.0,MIT,https://www.npmjs.com/package/resolve-from/v/4.0.0,installed metadata
+npm,resolve-pkg-maps,1.0.0,MIT,https://www.npmjs.com/package/resolve-pkg-maps/v/1.0.0,installed metadata
+npm,reusify,1.1.0,MIT,https://www.npmjs.com/package/reusify/v/1.1.0,installed metadata
+npm,rolldown,1.2.11,MIT,https://www.npmjs.com/package/rolldown/v/1.2.11,installed metadata
+npm,run-parallel,1.2.0,MIT,https://www.npmjs.com/package/run-parallel/v/1.2.0,installed metadata
+npm,safe-array-concat,1.1.4,MIT,https://www.npmjs.com/package/safe-array-concat/v/1.1.4,installed metadata
+npm,safe-push-apply,1.0.0,MIT,https://www.npmjs.com/package/safe-push-apply/v/1.0.0,installed metadata
+npm,safe-regex-test,1.1.0,MIT,https://www.npmjs.com/package/safe-regex-test/v/1.1.0,installed metadata
+npm,saxes,6.0.0,ISC,https://www.npmjs.com/package/saxes/v/6.0.0,installed metadata
+npm,scheduler,0.28.0,MIT,https://www.npmjs.com/package/scheduler/v/0.28.0,installed metadata
+npm,semver,6.3.1,ISC,https://www.npmjs.com/package/semver/v/6.3.1,installed metadata
+npm,semver,7.8.5,ISC,https://www.npmjs.com/package/semver/v/7.8.5,installed metadata
+npm,set-function-length,1.2.2,MIT,https://www.npmjs.com/package/set-function-length/v/1.2.2,installed metadata
+npm,set-function-name,2.0.2,MIT,https://www.npmjs.com/package/set-function-name/v/2.0.2,installed metadata
+npm,set-proto,1.0.0,MIT,https://www.npmjs.com/package/set-proto/v/1.0.0,installed metadata
+npm,sharp,0.35.4,Apache-2.0,https://www.npmjs.com/package/sharp/v/0.35.4,installed metadata
+npm,shebang-command,2.0.0,MIT,https://www.npmjs.com/package/shebang-command/v/2.0.0,installed metadata
+npm,shebang-regex,3.0.0,MIT,https://www.npmjs.com/package/shebang-regex/v/3.0.0,installed metadata
+npm,side-channel,1.1.1,MIT,https://www.npmjs.com/package/side-channel/v/1.1.1,installed metadata
+npm,side-channel-list,1.0.1,MIT,https://www.npmjs.com/package/side-channel-list/v/1.0.1,installed metadata
+npm,side-channel-map,1.0.1,MIT,https://www.npmjs.com/package/side-channel-map/v/1.0.1,installed metadata
+npm,side-channel-weakmap,1.0.2,MIT,https://www.npmjs.com/package/side-channel-weakmap/v/1.0.2,installed metadata
+npm,source-map-js,1.2.1,BSD-3-Clause,https://www.npmjs.com/package/source-map-js/v/1.2.1,installed metadata
+npm,stable-hash,0.0.5,MIT,https://www.npmjs.com/package/stable-hash/v/0.0.5,installed metadata
+npm,std-env,4.2.0,MIT,https://www.npmjs.com/package/std-env/v/4.2.0,installed metadata
+npm,stop-iteration-iterator,1.1.0,MIT,https://www.npmjs.com/package/stop-iteration-iterator/v/1.1.0,installed metadata
+npm,string.prototype.includes,2.0.1,MIT,https://www.npmjs.com/package/string.prototype.includes/v/2.0.1,installed metadata
+npm,string.prototype.matchall,4.1.0,MIT,https://www.npmjs.com/package/string.prototype.matchall/v/4.1.0,installed metadata
+npm,string.prototype.repeat,1.0.0,MIT,https://www.npmjs.com/package/string.prototype.repeat/v/1.0.0,installed metadata
+npm,string.prototype.trim,1.2.11,MIT,https://www.npmjs.com/package/string.prototype.trim/v/1.2.11,installed metadata
+npm,string.prototype.trimend,1.0.10,MIT,https://www.npmjs.com/package/string.prototype.trimend/v/1.0.10,installed metadata
+npm,string.prototype.trimstart,1.0.8,MIT,https://www.npmjs.com/package/string.prototype.trimstart/v/1.0.8,installed metadata
+npm,strip-bom,3.0.0,MIT,https://www.npmjs.com/package/strip-bom/v/3.0.0,installed metadata
+npm,strip-indent,3.0.0,MIT,https://www.npmjs.com/package/strip-indent/v/3.0.0,installed metadata
+npm,strip-json-comments,3.1.1,MIT,https://www.npmjs.com/package/strip-json-comments/v/3.1.1,installed metadata
+npm,styled-jsx,5.1.6,MIT,https://www.npmjs.com/package/styled-jsx/v/5.1.6,installed metadata
+npm,supports-color,7.2.0,MIT,https://www.npmjs.com/package/supports-color/v/7.2.0,installed metadata
+npm,supports-preserve-symlinks-flag,1.0.0,MIT,https://www.npmjs.com/package/supports-preserve-symlinks-flag/v/1.0.0,installed metadata
+npm,tailwindcss,4.3.3,MIT,https://www.npmjs.com/package/tailwindcss/v/4.3.3,installed metadata
+npm,tapable,2.3.3,MIT,https://www.npmjs.com/package/tapable/v/2.3.3,installed metadata
+npm,tinybench,6.2.0,MIT,https://www.npmjs.com/package/tinybench/v/6.2.0,installed metadata
+npm,tinyexec,1.3.1,MIT,https://www.npmjs.com/package/tinyexec/v/1.3.1,installed metadata
+npm,tinyglobby,0.2.17,MIT,https://www.npmjs.com/package/tinyglobby/v/0.2.17,installed metadata
+npm,tldts,7.4.15,MIT,https://www.npmjs.com/package/tldts/v/7.4.15,installed metadata
+npm,tldts-core,7.4.15,MIT,https://www.npmjs.com/package/tldts-core/v/7.4.15,installed metadata
+npm,to-regex-range,5.0.1,MIT,https://www.npmjs.com/package/to-regex-range/v/5.0.1,installed metadata
+npm,tough-cookie,6.0.2,BSD-3-Clause,https://www.npmjs.com/package/tough-cookie/v/6.0.2,installed metadata
+npm,tr46,6.0.0,MIT,https://www.npmjs.com/package/tr46/v/6.0.0,installed metadata
+npm,ts-api-utils,2.5.0,MIT,https://www.npmjs.com/package/ts-api-utils/v/2.5.0,installed metadata
+npm,tsconfig-paths,3.15.0,MIT,https://www.npmjs.com/package/tsconfig-paths/v/3.15.0,installed metadata
+npm,tslib,2.8.1,0BSD,https://www.npmjs.com/package/tslib/v/2.8.1,installed metadata
+npm,type-check,0.4.0,MIT,https://www.npmjs.com/package/type-check/v/0.4.0,installed metadata
+npm,typed-array-buffer,1.0.3,MIT,https://www.npmjs.com/package/typed-array-buffer/v/1.0.3,installed metadata
+npm,typed-array-byte-length,1.0.3,MIT,https://www.npmjs.com/package/typed-array-byte-length/v/1.0.3,installed metadata
+npm,typed-array-byte-offset,1.0.5,MIT,https://www.npmjs.com/package/typed-array-byte-offset/v/1.0.5,installed metadata
+npm,typed-array-length,1.0.8,MIT,https://www.npmjs.com/package/typed-array-length/v/1.0.8,installed metadata
+npm,typescript,6.0.3,Apache-2.0,https://www.npmjs.com/package/typescript/v/6.0.3,installed metadata
+npm,typescript-eslint,8.70.1,MIT,https://www.npmjs.com/package/typescript-eslint/v/8.70.1,installed metadata
+npm,unbox-primitive,1.1.0,MIT,https://www.npmjs.com/package/unbox-primitive/v/1.1.0,installed metadata
+npm,undici,8.11.2,MIT,https://www.npmjs.com/package/undici/v/8.11.2,installed metadata
+npm,undici-types,7.24.6,MIT,https://www.npmjs.com/package/undici-types/v/7.24.6,installed metadata
+npm,unrs-resolver,1.12.2,MIT,https://www.npmjs.com/package/unrs-resolver/v/1.12.2,installed metadata
+npm,update-browserslist-db,1.3.3,MIT,https://www.npmjs.com/package/update-browserslist-db/v/1.3.3,installed metadata
+npm,uri-js,4.4.1,BSD-2-Clause,https://www.npmjs.com/package/uri-js/v/4.4.1,installed metadata
+npm,use-intl,4.14.7,MIT,https://www.npmjs.com/package/use-intl/v/4.14.7,installed metadata
+npm,vite,8.3.1,MIT,https://www.npmjs.com/package/vite/v/8.3.1,installed metadata
+npm,vitest,5.0.2,MIT,https://www.npmjs.com/package/vitest/v/5.0.2,installed metadata
+npm,w3c-xmlserializer,6.0.0,MIT,https://www.npmjs.com/package/w3c-xmlserializer/v/6.0.0,installed metadata
+npm,webidl-conversions,8.0.1,BSD-2-Clause,https://www.npmjs.com/package/webidl-conversions/v/8.0.1,installed metadata
+npm,whatwg-mimetype,5.0.0,MIT,https://www.npmjs.com/package/whatwg-mimetype/v/5.0.0,installed metadata
+npm,whatwg-url,16.0.1,MIT,https://www.npmjs.com/package/whatwg-url/v/16.0.1,installed metadata
+npm,whatwg-url,17.1.2,MIT,https://www.npmjs.com/package/whatwg-url/v/17.1.2,installed metadata
+npm,which,2.0.2,ISC,https://www.npmjs.com/package/which/v/2.0.2,installed metadata
+npm,which-boxed-primitive,1.1.1,MIT,https://www.npmjs.com/package/which-boxed-primitive/v/1.1.1,installed metadata
+npm,which-builtin-type,1.2.1,MIT,https://www.npmjs.com/package/which-builtin-type/v/1.2.1,installed metadata
+npm,which-collection,1.0.2,MIT,https://www.npmjs.com/package/which-collection/v/1.0.2,installed metadata
+npm,which-typed-array,1.1.24,MIT,https://www.npmjs.com/package/which-typed-array/v/1.1.24,installed metadata
+npm,why-is-node-running,3.2.2,MIT,https://www.npmjs.com/package/why-is-node-running/v/3.2.2,installed metadata
+npm,word-wrap,1.2.5,MIT,https://www.npmjs.com/package/word-wrap/v/1.2.5,installed metadata
+npm,xml-name-validator,5.0.0,Apache-2.0,https://www.npmjs.com/package/xml-name-validator/v/5.0.0,installed metadata
+npm,xmlchars,2.2.0,MIT,https://www.npmjs.com/package/xmlchars/v/2.2.0,installed metadata
+npm,yallist,3.1.1,ISC,https://www.npmjs.com/package/yallist/v/3.1.1,installed metadata
+npm,yocto-queue,0.1.0,MIT,https://www.npmjs.com/package/yocto-queue/v/0.1.0,installed metadata
+npm,zod,4.6.5,MIT,https://www.npmjs.com/package/zod/v/4.6.5,installed metadata
+npm,zod-validation-error,4.0.2,MIT,https://www.npmjs.com/package/zod-validation-error/v/4.0.2,installed metadata
+pypi,alembic,1.20.0,MIT,https://pypi.org/pypi/alembic/1.20.0/json,metadata
+pypi,annotated-doc,0.0.5,MIT,https://pypi.org/pypi/annotated-doc/0.0.5/json,metadata
+pypi,annotated-types,0.8.0,MIT,https://pypi.org/pypi/annotated-types/0.8.0/json,metadata
+pypi,anyio,4.15.1,MIT,https://pypi.org/pypi/anyio/4.15.1/json,metadata
+pypi,arrow,1.4.0,License :: OSI Approved :: Apache Software License,https://pypi.org/pypi/arrow/1.4.0/json,metadata
+pypi,ast_serialize,0.11.2,MIT,https://pypi.org/pypi/ast_serialize/0.11.2/json,metadata
+pypi,attrs,26.1.0,MIT,https://pypi.org/pypi/attrs/26.1.0/json,metadata
+pypi,boto3,1.43.103,Apache-2.0,https://pypi.org/pypi/boto3/1.43.103/json,metadata
+pypi,boto3-stubs,1.43.104,MIT,https://pypi.org/pypi/boto3-stubs/1.43.104/json,metadata
+pypi,botocore,1.43.103,Apache-2.0,https://pypi.org/pypi/botocore/1.43.103/json,metadata
+pypi,botocore-stubs,1.43.67,MIT,https://pypi.org/pypi/botocore-stubs/1.43.67/json,metadata
+pypi,certifi,2026.7.22,MPL-2.0,https://pypi.org/pypi/certifi/2026.7.22/json,metadata
+pypi,cffi,2.1.1,MIT-0,https://pypi.org/pypi/cffi/2.1.1/json,metadata
+pypi,click,8.5.0,BSD-3-Clause,https://pypi.org/pypi/click/8.5.0/json,metadata
+pypi,colorama,0.4.6,License :: OSI Approved :: BSD License,https://pypi.org/pypi/colorama/0.4.6/json,metadata
+pypi,coverage,7.16.2,Apache-2.0,https://pypi.org/pypi/coverage/7.16.2/json,metadata
+pypi,cryptography,50.0.1,Apache-2.0 OR BSD-3-Clause,https://pypi.org/pypi/cryptography/50.0.1/json,metadata
+pypi,fastapi,0.141.1,MIT,https://pypi.org/pypi/fastapi/0.141.1/json,metadata
+pypi,fqdn,1.6.0,MPL-2.0,https://pypi.org/pypi/fqdn/1.6.0/json,metadata
+pypi,greenlet,3.5.6,MIT AND PSF-2.0,https://pypi.org/pypi/greenlet/3.5.6/json,metadata
+pypi,h11,0.16.0,MIT,https://pypi.org/pypi/h11/0.16.0/json,metadata
+pypi,httpcore,1.0.9,BSD-3-Clause,https://pypi.org/pypi/httpcore/1.0.9/json,metadata
+pypi,httptools,0.8.0,MIT,https://pypi.org/pypi/httptools/0.8.0/json,metadata
+pypi,httpx,0.28.1,BSD-3-Clause,https://pypi.org/pypi/httpx/0.28.1/json,metadata
+pypi,idna,3.20,BSD-3-Clause,https://pypi.org/pypi/idna/3.20/json,metadata
+pypi,iniconfig,2.3.0,MIT,https://pypi.org/pypi/iniconfig/2.3.0/json,metadata
+pypi,isoduration,20.11.0,License :: OSI Approved :: ISC License (ISCL),https://pypi.org/pypi/isoduration/20.11.0/json,metadata
+pypi,jmespath,1.1.0,MIT,https://pypi.org/pypi/jmespath/1.1.0/json,metadata
+pypi,jsonpointer,3.1.1,Modified BSD License,https://pypi.org/pypi/jsonpointer/3.1.1/json,metadata
+pypi,jsonschema,4.26.0,MIT,https://pypi.org/pypi/jsonschema/4.26.0/json,metadata
+pypi,jsonschema-specifications,2025.9.1,MIT,https://pypi.org/pypi/jsonschema-specifications/2025.9.1/json,metadata
+pypi,librt,0.15.0,MIT,https://pypi.org/pypi/librt/0.15.0/json,metadata
+pypi,Mako,1.4.3,MIT,https://pypi.org/pypi/Mako/1.4.3/json,metadata
+pypi,MarkupSafe,3.0.3,BSD-3-Clause,https://pypi.org/pypi/MarkupSafe/3.0.3/json,metadata
+pypi,mypy,2.3.1,MIT,https://pypi.org/pypi/mypy/2.3.1/json,metadata
+pypi,mypy-boto3-s3,1.43.93,MIT,https://pypi.org/pypi/mypy-boto3-s3/1.43.93/json,metadata
+pypi,mypy_extensions,1.1.0,,https://pypi.org/pypi/mypy_extensions/1.1.0/json,metadata
+pypi,packaging,26.3,Apache-2.0 OR BSD-2-Clause,https://pypi.org/pypi/packaging/26.3/json,metadata
+pypi,pathspec,1.1.1,License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0),https://pypi.org/pypi/pathspec/1.1.1/json,metadata
+pypi,pluggy,1.6.0,MIT,https://pypi.org/pypi/pluggy/1.6.0/json,metadata
+pypi,psycopg,3.3.6,LGPL-3.0-only,https://pypi.org/pypi/psycopg/3.3.6/json,metadata
+pypi,psycopg-binary,3.3.6,LGPL-3.0-only,https://pypi.org/pypi/psycopg-binary/3.3.6/json,metadata
+pypi,psycopg-pool,3.3.3,LGPL-3.0-only,https://pypi.org/pypi/psycopg-pool/3.3.3/json,metadata
+pypi,pycparser,3.0,BSD-3-Clause,https://pypi.org/pypi/pycparser/3.0/json,metadata
+pypi,pydantic,2.13.5,MIT,https://pypi.org/pypi/pydantic/2.13.5/json,metadata
+pypi,pydantic-settings,2.15.0,MIT,https://pypi.org/pypi/pydantic-settings/2.15.0/json,metadata
+pypi,pydantic_core,2.46.5,MIT,https://pypi.org/pypi/pydantic_core/2.46.5/json,metadata
+pypi,Pygments,2.21.0,BSD-2-Clause,https://pypi.org/pypi/Pygments/2.21.0/json,metadata
+pypi,PyJWT,2.15.0,MIT,https://pypi.org/pypi/PyJWT/2.15.0/json,metadata
+pypi,pytest,9.1.1,MIT,https://pypi.org/pypi/pytest/9.1.1/json,metadata
+pypi,pytest-asyncio,1.4.0,Apache-2.0,https://pypi.org/pypi/pytest-asyncio/1.4.0/json,metadata
+pypi,pytest-cov,7.1.0,MIT,https://pypi.org/pypi/pytest-cov/7.1.0/json,metadata
+pypi,python-dateutil,2.9.0.post0,Dual License,https://pypi.org/pypi/python-dateutil/2.9.0.post0/json,metadata
+pypi,python-dotenv,1.2.3,BSD-3-Clause,https://pypi.org/pypi/python-dotenv/1.2.3/json,metadata
+pypi,python-multipart,0.0.32,Apache-2.0,https://pypi.org/pypi/python-multipart/0.0.32/json,metadata
+pypi,PyYAML,6.0.3,MIT,https://pypi.org/pypi/PyYAML/6.0.3/json,metadata
+pypi,referencing,0.37.0,MIT,https://pypi.org/pypi/referencing/0.37.0/json,metadata
+pypi,rfc3339-validator,0.1.4,MIT license,https://pypi.org/pypi/rfc3339-validator/0.1.4/json,metadata
+pypi,rfc3987,1.3.8,GNU GPLv3+,https://pypi.org/pypi/rfc3987/1.3.8/json,metadata
+pypi,rfc8785,0.1.4,License :: OSI Approved :: Apache Software License,https://pypi.org/pypi/rfc8785/0.1.4/json,metadata
+pypi,rpds-py,2026.6.3,MIT,https://pypi.org/pypi/rpds-py/2026.6.3/json,metadata
+pypi,ruff,0.16.9,MIT,https://pypi.org/pypi/ruff/0.16.9/json,metadata
+pypi,s3transfer,0.19.2,Apache License 2.0,https://pypi.org/pypi/s3transfer/0.19.2/json,metadata
+pypi,six,1.17.0,MIT,https://pypi.org/pypi/six/1.17.0/json,metadata
+pypi,SQLAlchemy,2.1.1,MIT,https://pypi.org/pypi/SQLAlchemy/2.1.1/json,metadata
+pypi,starlette,1.7.0,BSD-3-Clause,https://pypi.org/pypi/starlette/1.7.0/json,metadata
+pypi,types-jsonschema,4.26.0.20260518,Apache-2.0,https://pypi.org/pypi/types-jsonschema/4.26.0.20260518/json,metadata
+pypi,types-s3transfer,0.16.0,MIT,https://pypi.org/pypi/types-s3transfer/0.16.0/json,metadata
+pypi,typing-inspection,0.4.4,MIT,https://pypi.org/pypi/typing-inspection/0.4.4/json,metadata
+pypi,typing_extensions,4.16.0,PSF-2.0,https://pypi.org/pypi/typing_extensions/4.16.0/json,metadata
+pypi,tzdata,2026.4,Apache-2.0,https://pypi.org/pypi/tzdata/2026.4/json,metadata
+pypi,uri-template,1.3.0,MIT License,https://pypi.org/pypi/uri-template/1.3.0/json,metadata
+pypi,urllib3,2.8.0,MIT,https://pypi.org/pypi/urllib3/2.8.0/json,metadata
+pypi,uvicorn,0.54.0,BSD-3-Clause,https://pypi.org/pypi/uvicorn/0.54.0/json,metadata
+pypi,watchfiles,1.3.0,MIT,https://pypi.org/pypi/watchfiles/1.3.0/json,metadata
+pypi,webcolors,25.10.0,BSD-3-Clause,https://pypi.org/pypi/webcolors/25.10.0/json,metadata
+pypi,websockets,17.1,BSD-3-Clause,https://pypi.org/pypi/websockets/17.1/json,metadata

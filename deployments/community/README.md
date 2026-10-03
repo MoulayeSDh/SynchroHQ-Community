@@ -28,7 +28,7 @@ After applying the 9B migration, initialize a *new, empty* database exactly once
 sudo docker compose -f compose.yaml -f compose.pilot.yaml exec backend \
   python -m app.modules.identity.bootstrap \
   --tenant-code DCORP_INVEST --tenant-name "D-Corp Invest" \
-  --admin-identifier admin@dcorpinvest.com --admin-name "D-Corp Invest Admin" \
+  --admin-identifier admin@example.invalid --admin-name "Example Admin" \
   --root-territory-name "SynchroHQ Pilot" --organization-name "D-Corp Invest"
 ```
 

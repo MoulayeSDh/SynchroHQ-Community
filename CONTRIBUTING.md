@@ -1,8 +1,8 @@
 # Contributing to SynchroHQ Community
 
-Thank you for your interest in SynchroHQ Community. This repository is private
-while the publication and licensing review is in progress. Contributions are
-limited to people who currently have access.
+Thank you for your interest in SynchroHQ Community. The repository is public;
+the dependency, attribution, and commercial licensing reviews continue. Please
+follow the process below when proposing a change.
 
 ## Before you contribute
 
@@ -27,7 +27,8 @@ appropriate Compose configuration and production preflight checks.
 First-party Community code is licensed under `AGPL-3.0-only`. A contribution
 intended for this repository must be compatible with that license. A pull
 request alone does not grant D-Corp Invest additional rights to license the
-contribution commercially. The project will define contribution terms,
-including any sign-off or contributor agreement needed for commercial
-licensing, before accepting public contributions. Until then, maintainers
-will review rights with each authorized contributor before merging.
+contribution commercially. Maintainers review the provenance and licensing of
+each contribution before merging. If a change is also intended for a separately
+licensed commercial offering, the maintainer must obtain any additional rights
+through an explicit agreement with the contributor. No contributor agreement
+is implied by opening a pull request.

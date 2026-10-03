@@ -136,11 +136,15 @@ GitHub Actions; further Linux validation is deferred to a client deployment.
 
 ### Licensing
 
-SynchroHQ Community is being prepared for an AGPLv3 release, subject to a
-review of code ownership, dependencies, third-party notices, and the boundary
-with commercial Enterprise extensions. No open-source license has yet been
-adopted. See the [release review](docs/open-source-release-review.md),
-[contribution guide](CONTRIBUTING.md), and [security policy](SECURITY.md).
+First-party SynchroHQ Community code is licensed under
+[GNU AGPL version 3 only](LICENSE) (`AGPL-3.0-only`), subject to the rights
+identified in [COPYRIGHT](COPYRIGHT). Third-party components retain their own
+licenses. Public release remains pending the dependency, attribution, and
+Enterprise integration checks in the
+[release review](docs/open-source-release-review.md). See also the
+[contribution guide](CONTRIBUTING.md) and [security policy](SECURITY.md).
+The planned Open Core offering is described in
+[commercial licensing](COMMERCIAL-LICENSING.md).
 
 ---
 

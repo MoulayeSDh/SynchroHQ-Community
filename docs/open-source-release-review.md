@@ -1,17 +1,18 @@
 # Open-source release review (private preparation)
 
-Community remains private. AGPLv3 is the proposed license, pending the checks
-below. This document records work to complete before the repository visibility
-changes; it is not a license grant.
+Community remains private. First-party code now carries an `AGPL-3.0-only`
+license. This document records checks still required before the repository
+visibility changes; it does not alter the license or third-party rights.
 
 ## Rights and licensing
 
-- Establish the copyright owner and the authority to license all first-party
-  source, forms, documentation, and visual assets. Git commit authorship alone
-  is not proof of ownership or employer assignment.
-- Decide between `AGPL-3.0-only` and `AGPL-3.0-or-later`, then add the unmodified
-  license text and accurate copyright notices. Update README and contribution
-  terms only after that decision.
+- The project owner reports a written assignment of the original SynchroHQ
+  code to D-Corp Invest. Verify the document's scope against source, forms,
+  documentation, visual assets, and any contractor work before publication.
+  Git commit authorship alone is not proof of ownership or assignment.
+- Confirm that `AGPL-3.0-only` reflects the rights holder's intended version
+  choice. The official license text has been added unchanged; verify the
+  accuracy and scope of the `COPYRIGHT` notice before publication.
 - Obtain legal review of the commercial Enterprise distribution. The current AI
   image inherits the Community backend image and imports Community Python
   modules directly. Separate repositories and processes do not settle whether

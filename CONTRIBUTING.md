@@ -24,9 +24,10 @@ appropriate Compose configuration and production preflight checks.
 
 ## Licensing of contributions
 
-The project is evaluating AGPLv3 for Community. No open-source license has yet
-been adopted for this repository. Contributors must not assume that a pull
-request grants D-Corp Invest additional relicensing rights. Contribution terms,
-including any sign-off or contributor agreement, will be defined before public
-contributions are accepted. Until then, maintainers will review rights and
-licensing with each authorized contributor before merging.
+First-party Community code is licensed under `AGPL-3.0-only`. A contribution
+intended for this repository must be compatible with that license. A pull
+request alone does not grant D-Corp Invest additional rights to license the
+contribution commercially. The project will define contribution terms,
+including any sign-off or contributor agreement needed for commercial
+licensing, before accepting public contributions. Until then, maintainers
+will review rights with each authorized contributor before merging.

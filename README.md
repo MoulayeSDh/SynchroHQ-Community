@@ -1,5 +1,11 @@
 # SynchroHQ — From Field Intelligence to Better Decisions
 
+**Open Source Community Edition · Commercial Enterprise / AI Edition**
+
+[![License: AGPLv3](https://img.shields.io/badge/Community-AGPLv3-blue)](LICENSE)
+[![Quality](https://github.com/MoulayeSDh/SynchroHQ-Community/actions/workflows/quality.yml/badge.svg)](https://github.com/MoulayeSDh/SynchroHQ-Community/actions/workflows/quality.yml)
+[![Enterprise / AI: Commercial](https://img.shields.io/badge/Enterprise%20%2F%20AI-Commercial-orange)](https://www.dcorpinvest.com/contact)
+
 <p align="center">
   <img src="docs/assets/readme-hero.svg" alt="SynchroHQ — Connected intelligence, from the field to decision-makers" width="100%">
 </p>
@@ -11,6 +17,37 @@
 <p align="center">
   <strong>Collect anywhere · Stay connected offline · Act on reliable information</strong>
 </p>
+
+---
+
+## Choose your SynchroHQ edition
+
+**SynchroHQ Community — Free & Open Source.** Self-host the complete Community
+platform under the [GNU AGPLv3 license](LICENSE). It includes field reporting,
+offline synchronization, hierarchical access control, dashboards, and maps.
+No Enterprise purchase is needed to use or customize Community under the
+license terms.
+
+**SynchroHQ Enterprise / AI — Proprietary commercial edition.** This is a
+separate, paid offering developed by **D-Corp Invest**, with pricing on request.
+Its private implementation includes semantic search and an AI assistant. These
+capabilities have passed local validation with synthetic data; commercial
+distribution terms and customer deployment remain under review. Availability
+and scope will be confirmed in a quotation.
+
+| Capability | Community | Enterprise / AI |
+| --- | --- | --- |
+| License | AGPL-3.0-only | Separate proprietary commercial terms |
+| Price | Free to self-host | Paid; contact us for a quotation |
+| Forms and reports | Included | Included through Community |
+| Offline work and synchronization | Included | Included through Community |
+| Hierarchy and permissions | Included | Included through Community |
+| Dashboards and maps | Included | Included through Community |
+| Semantic search and AI assistant | Not included | Implemented in private validation build; commercial availability pending |
+| Deployment, integration, customization, and support | Self-service documentation | Commercial services may be offered by agreement |
+
+Community runs independently of Enterprise / AI. For commercial inquiries,
+visit the [D-Corp Invest contact page](https://www.dcorpinvest.com/contact).
 
 ---
 
@@ -30,7 +67,7 @@ From the first field observation to the final management decision, SynchroHQ mak
 
 | Collect | Coordinate | Monitor | Understand |
 |---|---|---|---|
-| Capture reports, activities, documents and GPS information, even without Internet. | Connect teams, supervisors and decision-makers through structured reporting and review. | Follow submissions, identify delays, track corrections and maintain a reliable history. | Explore dashboards, territorial indicators, interactive maps and AI-assisted insights. |
+| Capture reports, activities, documents and GPS information, even without Internet. | Connect teams, supervisors and decision-makers through structured reporting and review. | Follow submissions, identify delays, track corrections and maintain a reliable history. | Explore dashboards, territorial indicators and interactive maps; AI assistance is part of the separate Enterprise offering. |
 
 ### Work anywhere. Even without connectivity.
 
@@ -58,9 +95,13 @@ SynchroHQ brings operational data into dashboards and geographical views, helpin
 
 ## Intelligence when you need it. Control where it matters.
 
-**SynchroHQ Enterprise/AI** introduces an optional intelligence layer designed to help authorized users explore information through natural language.
+**SynchroHQ Enterprise / AI**, the proprietary commercial edition in preparation,
+adds an optional intelligence layer designed to help authorized users explore
+information through natural language.
 
-Ask questions about reported activities, summarize documented difficulties, retrieve relevant information and investigate operational trends.
+In the private validation build, authorized users can ask questions about
+reported activities, summarize documented difficulties, retrieve relevant
+information, and investigate operational trends.
 
 The assistant connects answers to their underlying sources. Official statistics remain grounded in the platform's deterministic analytics, while access permissions are enforced before information is supplied to an AI model.
 
@@ -90,15 +131,7 @@ The platform provides:
 - **Territorial intelligence** through dashboards and GPS-based mapping.
 - **Controlled information access** based on roles, permissions and scope.
 - **Multilingual workflows** in English, French and Arabic, including right-to-left layouts.
-- **Optional AI capabilities** for authorized information retrieval and source-backed synthesis.
-
-## Community at the foundation. Enterprise when you need more.
-
-**SynchroHQ Community** delivers the essential capabilities for structured reporting, field coordination, synchronization, monitoring and geographical visibility.
-
-**SynchroHQ Enterprise/AI** extends the platform with optional semantic search and an AI-powered assistant. Additional Enterprise capabilities and client-specific adaptations can be developed according to organizational requirements.
-
-This architecture allows the core platform to operate independently while supporting future specialized capabilities.
+- **Optional commercial AI capabilities** for authorized information retrieval and source-backed synthesis, subject to Enterprise availability.
 
 ---
 

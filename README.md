@@ -131,11 +131,16 @@ Local development services:
 
 The versioned production deployment guide covers a fresh Community install,
 initial administration, HTTPS templates, backups and a
-clean-host restore. The separate clean-host acceptance gate remains open.
+clean-host restore. The synthetic clean-host install and restore passed in
+GitHub Actions; further Linux validation is deferred to a client deployment.
 
 ### Licensing
 
-SynchroHQ is currently under development with no adopted open-source license. A Community open-source licensing model and separate commercial terms for Enterprise extensions are under consideration, subject to legal and dependency review.
+SynchroHQ Community is being prepared for an AGPLv3 release, subject to a
+review of code ownership, dependencies, third-party notices, and the boundary
+with commercial Enterprise extensions. No open-source license has yet been
+adopted. See the [release review](docs/open-source-release-review.md),
+[contribution guide](CONTRIBUTING.md), and [security policy](SECURITY.md).
 
 ---
 

@@ -31,6 +31,8 @@ Thumbs.db
 tmp/
 backups/
 uploads/
+*.dump
+*.tar.gz
 
 # IDE et Ã©diteurs
 .idea/

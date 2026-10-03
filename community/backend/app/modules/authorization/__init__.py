@@ -1,0 +1,1 @@
+"""Default-deny authorization."""

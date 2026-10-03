@@ -1,0 +1,11 @@
+# Temporary site for obtaining the first certificate without disabling Nginx.
+server {
+    listen 80;
+    listen [::]:80;
+    server_name @PUBLIC_HOST@;
+    location ^~ /.well-known/acme-challenge/ {
+        root /var/www/synchrohq-acme;
+        default_type text/plain;
+    }
+    location / { return 404; }
+}

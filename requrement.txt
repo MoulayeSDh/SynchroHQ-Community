@@ -1,0 +1,84 @@
+# SynchroHQ - Dépendances Python et inventaire technique
+# Nom requrement.txt conservé conformément à la demande.
+# Installation Python : python -m pip install -r requirements.txt
+# Aucun paquet n'est installé lors de la création de cette arborescence.
+# Versions à tester et verrouiller au démarrage du développement.
+# Python cible : 3.12+ compatible avec les dépendances retenues.
+
+# API, validation et configuration
+fastapi
+uvicorn[standard]
+pydantic>=2,<3
+pydantic-settings
+python-multipart
+jsonschema[format]>=4.23,<5
+
+# PostgreSQL, ORM et migrations
+SQLAlchemy[asyncio]>=2,<3
+alembic
+psycopg[binary,pool]
+
+# Authentification Community par mot de passe Argon2id et JWT révocables.
+# Un fournisseur OIDC pourra être ajouté séparément lors d'une phase ultérieure.
+PyJWT[crypto]
+argon2-cffi>=23,<26
+httpx
+
+# Stockage objet compatible S3
+boto3
+
+# JSON canonique pour les empreintes de confirmation
+# Une empreinte SHA-256 n'est pas une signature cryptographique.
+rfc8785
+
+# Portable IANA timezone data for reporting deadlines
+tzdata
+
+# --- PYTHON : OPTIONS À ACTIVER AU BLOC CONCERNÉ ---
+# Géospatial : GeoAlchemy2
+# Rapports PDF : reportlab
+# Exports Excel : openpyxl
+# Recherche vectorielle : pgvector
+# SDK LLM/embeddings : à choisir selon le fournisseur et l'hébergement
+# File de travaux, si nécessaire : celery et redis
+# Tests backend : pytest, pytest-asyncio, pytest-cov
+# Qualité Python : ruff, mypy
+
+# --- FRONTEND : PAQUETS NPM, NON INSTALLÉS PAR PIP ---
+# Runtime : Node.js LTS compatible avec la version Next.js retenue
+# Gestionnaire de paquets : pnpm
+# Base : next, react, react-dom, typescript
+# Types : @types/node, @types/react, @types/react-dom
+# Interface : tailwindcss, composants shadcn/ui selon les besoins
+# Formulaires : react-hook-form, @hookform/resolvers, zod
+# Données distantes : @tanstack/react-query
+# Stockage local : dexie, dexie-react-hooks
+# Français, arabe et RTL : next-intl et styles adaptés
+# PWA : manifest et service worker ; intégration à valider au prototype
+# Cartes : maplibre-gl (candidate à valider au bloc pilotage)
+# Graphiques : recharts (candidate à valider au bloc pilotage)
+# Tests : vitest, jsdom, @testing-library/react,
+#         @testing-library/jest-dom, @testing-library/user-event,
+#         @playwright/test
+# Qualité : eslint, eslint-config-next
+
+# --- SERVICES ET OUTILS EXTERNES ---
+# PostgreSQL 16+ : source centrale de vérité
+# PostGIS : extension PostgreSQL pour le géospatial
+# pgvector : extension PostgreSQL, à activer au bloc IA
+# Keycloak : fournisseur OIDC, MFA/passkeys selon configuration validée
+# MinIO ou stockage compatible S3 : pièces jointes
+# Docker + Docker Compose : environnement des services
+# Nginx + TLS : reverse proxy pour le déploiement
+# Git + GitHub Actions : code et contrôles automatisés
+# Sauvegardes PostgreSQL et fichiers, avec tests de restauration
+# Supervision : logs, erreurs et métriques ; outils à dimensionner au pilote
+# Redis/Celery : option pour les traitements asynchrones
+# LLM et embeddings : choix selon confidentialité, hébergement et coût
+
+# --- EXIGENCES TRANSVERSALES ---
+# Permissions + habilitation + périmètre vérifiés côté serveur
+# IndexedDB + file persistante + idempotence + accusé de réception serveur
+# Confirmation locale distincte de la signature cryptographique vérifiée
+# Révisions immuables et audit essentiel dès le premier parcours
+# Français, arabe et RTL prévus dès la conception

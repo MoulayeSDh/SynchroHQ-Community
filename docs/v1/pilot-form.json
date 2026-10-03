@@ -1,0 +1,163 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "id": "daily-territorial-report",
+  "version": "1.0.0-draft",
+  "status": "ready_for_freeze",
+  "default_locale": "fr",
+  "supported_locales": ["fr", "ar"],
+  "direction_by_locale": {
+    "fr": "ltr",
+    "ar": "rtl"
+  },
+  "title": {
+    "fr": "Rapport quotidien territorial",
+    "ar": "التقرير الإقليمي اليومي"
+  },
+  "description": {
+    "fr": "Formulaire pilote configurable pour démontrer la collecte quotidienne hors ligne et la remontée hiérarchique.",
+    "ar": "نموذج تجريبي قابل للتهيئة لإثبات الجمع اليومي دون اتصال والتسلسل الإداري."
+  },
+  "required_clearance": 1,
+  "allowed_author_roles": ["REPORT_AUTHOR"],
+  "reporting_territory_source": "active_assignment_scope",
+  "type": "object",
+  "required": [
+    "report_date",
+    "situation_level",
+    "executive_summary",
+    "activities",
+    "needs_support",
+    "author_declaration"
+  ],
+  "properties": {
+    "report_date": {
+      "type": "string",
+      "format": "date",
+      "title": {"fr": "Date du rapport", "ar": "تاريخ التقرير"}
+    },
+    "situation_level": {
+      "type": "string",
+      "enum": ["NORMAL", "WATCH", "CRITICAL"],
+      "title": {"fr": "Niveau de situation", "ar": "مستوى الوضع"},
+      "enum_labels": {
+        "NORMAL": {"fr": "Normal", "ar": "عادي"},
+        "WATCH": {"fr": "Vigilance", "ar": "يقظة"},
+        "CRITICAL": {"fr": "Critique", "ar": "حرج"}
+      }
+    },
+    "executive_summary": {
+      "type": "string",
+      "minLength": 20,
+      "maxLength": 4000,
+      "ui:widget": "textarea",
+      "title": {"fr": "Résumé de la journée", "ar": "ملخص اليوم"}
+    },
+    "activities": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 50,
+      "title": {"fr": "Activités et faits rapportés", "ar": "الأنشطة والوقائع المبلغ عنها"},
+      "items": {
+        "type": "object",
+        "required": ["category", "description", "occurred_at"],
+        "properties": {
+          "category": {
+            "type": "string",
+            "enum": ["ADMINISTRATION", "PUBLIC_SERVICE", "FIELD_ACTIVITY", "INCIDENT", "OTHER"],
+            "title": {"fr": "Catégorie", "ar": "الفئة"}
+          },
+          "description": {
+            "type": "string",
+            "minLength": 5,
+            "maxLength": 2000,
+            "ui:widget": "textarea",
+            "title": {"fr": "Description", "ar": "الوصف"}
+          },
+          "occurred_at": {
+            "type": "string",
+            "format": "date-time",
+            "title": {"fr": "Date et heure", "ar": "التاريخ والوقت"}
+          },
+          "quantity": {
+            "type": ["number", "null"],
+            "minimum": 0,
+            "title": {"fr": "Quantité", "ar": "الكمية"}
+          },
+          "unit": {
+            "type": ["string", "null"],
+            "maxLength": 40,
+            "title": {"fr": "Unité", "ar": "الوحدة"}
+          },
+          "location": {
+            "type": ["object", "null"],
+            "title": {"fr": "Position GPS", "ar": "الموقع الجغرافي"},
+            "required": ["latitude", "longitude"],
+            "properties": {
+              "latitude": {"type": "number", "minimum": -90, "maximum": 90},
+              "longitude": {"type": "number", "minimum": -180, "maximum": 180},
+              "accuracy_meters": {"type": ["number", "null"], "minimum": 0}
+            },
+            "additionalProperties": false
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "difficulties": {
+      "type": "string",
+      "maxLength": 3000,
+      "ui:widget": "textarea",
+      "title": {"fr": "Difficultés rencontrées", "ar": "الصعوبات التي تمت مواجهتها"}
+    },
+    "needs_support": {
+      "type": "boolean",
+      "title": {"fr": "Un appui supérieur est-il demandé ?", "ar": "هل تم طلب دعم من المستوى الأعلى؟"}
+    },
+    "support_request": {
+      "type": "string",
+      "minLength": 10,
+      "maxLength": 2000,
+      "ui:widget": "textarea",
+      "title": {"fr": "Appui demandé", "ar": "الدعم المطلوب"}
+    },
+    "attachments": {
+      "type": "array",
+      "maxItems": 5,
+      "ui:widget": "attachments",
+      "title": {"fr": "Pièces jointes", "ar": "المرفقات"},
+      "items": {
+        "type": "object",
+        "required": ["attachment_id", "file_name", "mime_type", "size", "sha256"],
+        "properties": {
+          "attachment_id": {"type": "string", "format": "uuid"},
+          "file_name": {"type": "string", "maxLength": 255},
+          "mime_type": {
+            "type": "string",
+            "enum": ["image/jpeg", "image/png", "application/pdf"]
+          },
+          "size": {"type": "integer", "minimum": 1, "maximum": 10485760},
+          "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+        },
+        "additionalProperties": false
+      }
+    },
+    "author_declaration": {
+      "type": "boolean",
+      "const": true,
+      "title": {
+        "fr": "Je confirme l'exactitude des informations fournies.",
+        "ar": "أؤكد صحة المعلومات المقدمة."
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {"needs_support": {"const": true}},
+        "required": ["needs_support"]
+      },
+      "then": {"required": ["support_request"]}
+    }
+  ],
+  "additionalProperties": false
+}

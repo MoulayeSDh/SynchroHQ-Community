@@ -1,0 +1,74 @@
+import { expect, test } from "@playwright/test";
+import fs from "node:fs";
+import path from "node:path";
+
+test("offline confirmation freezes the revision, survives reload and receives an identical hash", async ({ page, context, request }) => {
+  const credentialsFile = path.resolve("../../.local/forms-demo.json");
+  test.skip(!fs.existsSync(credentialsFile), "Run forms.demo first");
+  const credentials = JSON.parse(fs.readFileSync(credentialsFile, "utf8"));
+  const errors: string[] = [];
+  page.on("pageerror", error => errors.push(error.message));
+  await page.goto("http://localhost:3000/collect");
+  await page.getByLabel("Jeton d’accès").fill(credentials.token);
+  await page.getByRole("button", { name: "Préparer mes formulaires" }).click();
+  await expect(page.getByText(/Application préparée pour le hors-ligne/)).toBeVisible();
+  await page.getByRole("button", { name: /Rapport quotidien territorial · v/ }).last().click();
+  await context.setOffline(true);
+  await page.getByLabel(/Date du rapport/).fill("2026-09-29");
+  await page.getByLabel(/Niveau de situation/).selectOption({ label: "Normal" });
+  await page.getByLabel(/Résumé de la journée/).fill("Rapport confirmé hors connexion avec preuve jointe.");
+  await page.getByRole("button", { name: "Ajouter — Activités et faits rapportés" }).click();
+  await page.getByLabel(/Catégorie/).selectOption({ label: "Activité de terrain" });
+  await page.getByLabel("Description *", { exact: true }).fill("Visite de terrain et vérification locale");
+  await page.getByLabel(/Date et heure/).fill("2026-09-29T08:30");
+  await page.getByLabel(/Quantité/).fill("3");
+  await page.getByLabel(/Je confirme/).check();
+  await expect(page.getByTestId("draft-state")).toHaveText("Enregistré sur cet appareil");
+  await page.getByLabel("Ajouter une pièce jointe").setInputFiles({ name: "preuve-confirmee.pdf",
+    mimeType: "application/pdf", buffer: Buffer.from("%PDF-1.4\nConfirmed offline report\n%%EOF") });
+  await expect(page.getByText(/preuve-confirmee.pdf.*LOCAL/)).toBeVisible();
+  await page.getByRole("button", { name: "Finaliser le rapport" }).click();
+  await expect(page.getByTestId("report-business-state")).toHaveText("Finalisé");
+  await page.getByLabel("J’ai relu ce rapport et je confirme son contenu.").check();
+  await page.getByRole("button", { name: "Confirmer définitivement" }).click();
+  await expect(page.getByTestId("report-business-state")).toHaveText("Confirmé");
+  await expect(page.getByTestId("report-sync-state")).toHaveText("Rapport confirmé — en attente de réception");
+  const hash = await page.getByTestId("report-hash").textContent();
+  expect(hash).toMatch(/^[a-f0-9]{64}$/);
+  await expect(page.getByLabel(/Résumé de la journée/)).toBeDisabled();
+  await page.reload();
+  await page.getByRole("button", { name: /Rapport quotidien territorial.*En attente d’envoi/ }).click();
+  await expect(page.getByTestId("report-business-state")).toHaveText("Confirmé");
+  await expect(page.getByTestId("report-hash")).toHaveText(hash!);
+  await context.setOffline(false);
+  await page.getByText("Session et formulaires disponibles", { exact: true }).click();
+  await page.getByLabel("Jeton d’accès").fill(credentials.token);
+  await page.getByRole("button", { name: "Préparer mes formulaires" }).click();
+  await expect(page.getByTestId("report-sync-state")).toHaveText("Rapport reçu par le serveur", { timeout: 20000 });
+  await expect(page.getByTestId("report-hash")).toHaveText(hash!);
+  const headers = { Authorization: `Bearer ${credentials.token}` };
+  const list = await request.get("http://localhost:3000/api/reports-proxy", { headers });
+  expect(list.status()).toBe(200);
+  let official;
+  for (const item of await list.json()) {
+    const detail = await request.get("http://localhost:3000/api/reports-proxy/" + item.id, { headers });
+    const body = await detail.json();
+    if (body.revisions[0].payload_hash === hash) { official = body; break; }
+  }
+  expect(official).toBeDefined();
+  expect(official.revisions).toHaveLength(1);
+  const payload = official.revisions[0].payload;
+  const downloadUrl = `http://localhost:3000/api/reports-proxy/${official.id}/attachments/${payload.attachments[0].attachment_id}`;
+  const downloaded = await request.get(downloadUrl, { headers });
+  expect(downloaded.status()).toBe(200);
+  expect((await downloaded.body()).toString()).toBe("%PDF-1.4\nConfirmed offline report\n%%EOF");
+  expect((await request.get(downloadUrl)).status()).toBe(401);
+  await page.screenshot({ path: "../../.local/confirmed-report.png", fullPage: true });
+  await page.goto("http://localhost:3000/reports");
+  await page.getByLabel("Jeton d’accès").fill(credentials.token);
+  await page.getByRole("button", { name: "Charger les rapports" }).click();
+  await page.getByRole("button", { name: new RegExp(official.id.slice(0, 8)) }).click();
+  await expect(page.getByRole("heading", { name: "Révision 1 · Confirmée" })).toBeVisible();
+  await expect(page.getByText(hash!, { exact: true })).toBeVisible();
+  expect(errors).toEqual([]);
+});

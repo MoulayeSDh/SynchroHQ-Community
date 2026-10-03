@@ -1,0 +1,1 @@
+"""SynchroHQ Community backend."""

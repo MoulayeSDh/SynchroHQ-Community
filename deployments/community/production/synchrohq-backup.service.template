@@ -1,0 +1,11 @@
+[Unit]
+Description=SynchroHQ PostgreSQL and MinIO backup
+Requires=docker.service
+After=docker.service
+
+[Service]
+Type=oneshot
+User=root
+UMask=0077
+WorkingDirectory=@REPO_DIR@
+ExecStart=@REPO_DIR@/deployments/community/ops/backup.sh @BACKUP_DIR@ --env-file @ENV_FILE@

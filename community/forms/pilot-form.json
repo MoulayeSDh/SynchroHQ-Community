@@ -1,0 +1,445 @@
+{
+  "schema_version": "synchrohq.form/v1",
+  "data_schema": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "type": "object",
+    "required": [
+      "report_date",
+      "situation_level",
+      "executive_summary",
+      "activities",
+      "needs_support",
+      "author_declaration"
+    ],
+    "properties": {
+      "report_date": {
+        "type": "string",
+        "format": "date"
+      },
+      "situation_level": {
+        "type": "string",
+        "enum": [
+          "NORMAL",
+          "WATCH",
+          "CRITICAL"
+        ]
+      },
+      "executive_summary": {
+        "type": "string",
+        "minLength": 20,
+        "maxLength": 4000
+      },
+      "activities": {
+        "type": "array",
+        "minItems": 1,
+        "maxItems": 50,
+        "items": {
+          "type": "object",
+          "required": [
+            "category",
+            "description",
+            "occurred_at"
+          ],
+          "properties": {
+            "category": {
+              "type": "string",
+              "enum": [
+                "ADMINISTRATION",
+                "PUBLIC_SERVICE",
+                "FIELD_ACTIVITY",
+                "INCIDENT",
+                "OTHER"
+              ]
+            },
+            "description": {
+              "type": "string",
+              "minLength": 5,
+              "maxLength": 2000
+            },
+            "occurred_at": {
+              "type": "string",
+              "format": "date-time"
+            },
+            "quantity": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "unit": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "maxLength": 40
+            },
+            "location": {
+              "type": [
+                "object",
+                "null"
+              ],
+              "required": [
+                "latitude",
+                "longitude"
+              ],
+              "properties": {
+                "latitude": {
+                  "type": "number",
+                  "minimum": -90,
+                  "maximum": 90
+                },
+                "longitude": {
+                  "type": "number",
+                  "minimum": -180,
+                  "maximum": 180
+                },
+                "accuracy_meters": {
+                  "type": [
+                    "number",
+                    "null"
+                  ],
+                  "minimum": 0
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "difficulties": {
+        "type": "string",
+        "maxLength": 3000
+      },
+      "needs_support": {
+        "type": "boolean"
+      },
+      "support_request": {
+        "type": "string",
+        "minLength": 10,
+        "maxLength": 2000
+      },
+      "attachments": {
+        "type": "array",
+        "maxItems": 5,
+        "items": {
+          "type": "object",
+          "required": [
+            "attachment_id",
+            "file_name",
+            "mime_type",
+            "size",
+            "sha256"
+          ],
+          "properties": {
+            "attachment_id": {
+              "type": "string",
+              "format": "uuid"
+            },
+            "file_name": {
+              "type": "string",
+              "maxLength": 255
+            },
+            "mime_type": {
+              "type": "string",
+              "enum": [
+                "image/jpeg",
+                "image/png",
+                "application/pdf"
+              ]
+            },
+            "size": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 10485760
+            },
+            "sha256": {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "author_declaration": {
+        "type": "boolean",
+        "const": true
+      }
+    },
+    "allOf": [
+      {
+        "if": {
+          "properties": {
+            "needs_support": {
+              "const": true
+            }
+          },
+          "required": [
+            "needs_support"
+          ]
+        },
+        "then": {
+          "required": [
+            "support_request"
+          ]
+        }
+      }
+    ],
+    "additionalProperties": false
+  },
+  "ui_schema": {
+    "title_key": "form.title",
+    "description_key": "form.description",
+    "fields": {
+      "/report_date": {
+        "widget": "date",
+        "label_key": "/report_date.label"
+      },
+      "/situation_level": {
+        "widget": "select",
+        "label_key": "/situation_level.label",
+        "options": {
+          "NORMAL": "/situation_level.option.NORMAL",
+          "WATCH": "/situation_level.option.WATCH",
+          "CRITICAL": "/situation_level.option.CRITICAL"
+        }
+      },
+      "/executive_summary": {
+        "widget": "textarea",
+        "label_key": "/executive_summary.label"
+      },
+      "/activities": {
+        "widget": "repeating-group",
+        "label_key": "/activities.label"
+      },
+      "/activities/*/category": {
+        "widget": "select",
+        "label_key": "/activities/*/category.label",
+        "options": {
+          "ADMINISTRATION": "activity.category.ADMINISTRATION",
+          "PUBLIC_SERVICE": "activity.category.PUBLIC_SERVICE",
+          "FIELD_ACTIVITY": "activity.category.FIELD_ACTIVITY",
+          "INCIDENT": "activity.category.INCIDENT",
+          "OTHER": "activity.category.OTHER"
+        }
+      },
+      "/activities/*/description": {
+        "widget": "textarea",
+        "label_key": "/activities/*/description.label"
+      },
+      "/activities/*/occurred_at": {
+        "widget": "datetime",
+        "label_key": "/activities/*/occurred_at.label"
+      },
+      "/activities/*/quantity": {
+        "widget": "decimal",
+        "label_key": "/activities/*/quantity.label"
+      },
+      "/activities/*/unit": {
+        "widget": "text",
+        "label_key": "/activities/*/unit.label"
+      },
+      "/activities/*/location": {
+        "widget": "gps",
+        "label_key": "/activities/*/location.label"
+      },
+      "/activities/*/location/latitude": {
+        "widget": "decimal",
+        "label_key": "/activities/*/location/latitude.label"
+      },
+      "/activities/*/location/longitude": {
+        "widget": "decimal",
+        "label_key": "/activities/*/location/longitude.label"
+      },
+      "/activities/*/location/accuracy_meters": {
+        "widget": "decimal",
+        "label_key": "/activities/*/location/accuracy_meters.label"
+      },
+      "/difficulties": {
+        "widget": "textarea",
+        "label_key": "/difficulties.label"
+      },
+      "/needs_support": {
+        "widget": "boolean",
+        "label_key": "/needs_support.label"
+      },
+      "/support_request": {
+        "widget": "textarea",
+        "label_key": "/support_request.label",
+        "visible_when": {
+          "path": "/needs_support",
+          "equals": true
+        }
+      },
+      "/attachments": {
+        "widget": "attachments-metadata",
+        "label_key": "/attachments.label"
+      },
+      "/attachments/*/attachment_id": {
+        "widget": "text",
+        "label_key": "/attachments/*/attachment_id.label"
+      },
+      "/attachments/*/file_name": {
+        "widget": "text",
+        "label_key": "/attachments/*/file_name.label"
+      },
+      "/attachments/*/mime_type": {
+        "widget": "select",
+        "label_key": "/attachments/*/mime_type.label"
+      },
+      "/attachments/*/size": {
+        "widget": "integer",
+        "label_key": "/attachments/*/size.label"
+      },
+      "/attachments/*/sha256": {
+        "widget": "text",
+        "label_key": "/attachments/*/sha256.label"
+      },
+      "/author_declaration": {
+        "widget": "boolean",
+        "label_key": "/author_declaration.label"
+      }
+    },
+    "order": {
+      "": [
+        "report_date",
+        "situation_level",
+        "executive_summary",
+        "activities",
+        "difficulties",
+        "needs_support",
+        "support_request",
+        "attachments",
+        "author_declaration"
+      ],
+      "/activities/*": [
+        "category",
+        "description",
+        "occurred_at",
+        "quantity",
+        "unit",
+        "location"
+      ],
+      "/activities/*/location": [
+        "latitude",
+        "longitude",
+        "accuracy_meters"
+      ],
+      "/attachments/*": [
+        "attachment_id",
+        "file_name",
+        "mime_type",
+        "size",
+        "sha256"
+      ]
+    }
+  },
+  "translations": {
+    "fr": {
+      "/report_date.label": "Date du rapport",
+      "/situation_level.label": "Niveau de situation",
+      "/situation_level.option.NORMAL": "Normal",
+      "/situation_level.option.WATCH": "Vigilance",
+      "/situation_level.option.CRITICAL": "Critique",
+      "/executive_summary.label": "Résumé de la journée",
+      "/activities.label": "Activités et faits rapportés",
+      "/activities/*/category.label": "Catégorie",
+      "/activities/*/description.label": "Description",
+      "/activities/*/occurred_at.label": "Date et heure",
+      "/activities/*/quantity.label": "Quantité",
+      "/activities/*/unit.label": "Unité",
+      "/activities/*/location.label": "Position GPS",
+      "/activities/*/location/latitude.label": "Latitude",
+      "/activities/*/location/longitude.label": "Longitude",
+      "/activities/*/location/accuracy_meters.label": "Précision en mètres",
+      "/difficulties.label": "Difficultés rencontrées",
+      "/needs_support.label": "Un appui supérieur est-il demandé ?",
+      "/support_request.label": "Appui demandé",
+      "/attachments.label": "Pièces jointes",
+      "/attachments/*/attachment_id.label": "Identifiant de la pièce jointe",
+      "/attachments/*/file_name.label": "Nom du fichier",
+      "/attachments/*/mime_type.label": "Type de fichier",
+      "/attachments/*/size.label": "Taille en octets",
+      "/attachments/*/sha256.label": "Empreinte SHA-256",
+      "/author_declaration.label": "Je confirme l'exactitude des informations fournies.",
+      "form.title": "Rapport quotidien territorial",
+      "form.description": "Formulaire pilote configurable pour démontrer la collecte quotidienne hors ligne et la remontée hiérarchique.",
+      "activity.category.ADMINISTRATION": "Administration",
+      "activity.category.PUBLIC_SERVICE": "Service public",
+      "activity.category.FIELD_ACTIVITY": "Activité de terrain",
+      "activity.category.INCIDENT": "Incident",
+      "activity.category.OTHER": "Autre"
+    },
+    "ar": {
+      "/report_date.label": "تاريخ التقرير",
+      "/situation_level.label": "مستوى الوضع",
+      "/situation_level.option.NORMAL": "عادي",
+      "/situation_level.option.WATCH": "يقظة",
+      "/situation_level.option.CRITICAL": "حرج",
+      "/executive_summary.label": "ملخص اليوم",
+      "/activities.label": "الأنشطة والوقائع المبلغ عنها",
+      "/activities/*/category.label": "الفئة",
+      "/activities/*/description.label": "الوصف",
+      "/activities/*/occurred_at.label": "التاريخ والوقت",
+      "/activities/*/quantity.label": "الكمية",
+      "/activities/*/unit.label": "الوحدة",
+      "/activities/*/location.label": "الموقع الجغرافي",
+      "/activities/*/location/latitude.label": "خط العرض",
+      "/activities/*/location/longitude.label": "خط الطول",
+      "/activities/*/location/accuracy_meters.label": "الدقة بالأمتار",
+      "/difficulties.label": "الصعوبات التي تمت مواجهتها",
+      "/needs_support.label": "هل تم طلب دعم من المستوى الأعلى؟",
+      "/support_request.label": "الدعم المطلوب",
+      "/attachments.label": "المرفقات",
+      "/attachments/*/attachment_id.label": "معرف المرفق",
+      "/attachments/*/file_name.label": "اسم الملف",
+      "/attachments/*/mime_type.label": "نوع الملف",
+      "/attachments/*/size.label": "الحجم بالبايت",
+      "/attachments/*/sha256.label": "بصمة SHA-256",
+      "/author_declaration.label": "أؤكد صحة المعلومات المقدمة.",
+      "form.title": "التقرير الإقليمي اليومي",
+      "form.description": "نموذج تجريبي قابل للتهيئة لإثبات الجمع اليومي دون اتصال والتسلسل الإداري.",
+      "activity.category.ADMINISTRATION": "الإدارة",
+      "activity.category.PUBLIC_SERVICE": "الخدمة العامة",
+      "activity.category.FIELD_ACTIVITY": "نشاط ميداني",
+      "activity.category.INCIDENT": "حادث",
+      "activity.category.OTHER": "أخرى"
+    },
+    "en": {
+      "/report_date.label": "Report date",
+      "/situation_level.label": "Situation level",
+      "/situation_level.option.NORMAL": "Normal",
+      "/situation_level.option.WATCH": "Watch",
+      "/situation_level.option.CRITICAL": "Critical",
+      "/executive_summary.label": "Daily summary",
+      "/activities.label": "Reported activities and events",
+      "/activities/*/category.label": "Category",
+      "/activities/*/description.label": "Description",
+      "/activities/*/occurred_at.label": "Date and time",
+      "/activities/*/quantity.label": "Quantity",
+      "/activities/*/unit.label": "Unit",
+      "/activities/*/location.label": "GPS position",
+      "/activities/*/location/latitude.label": "Latitude",
+      "/activities/*/location/longitude.label": "Longitude",
+      "/activities/*/location/accuracy_meters.label": "Accuracy in meters",
+      "/difficulties.label": "Difficulties encountered",
+      "/needs_support.label": "Is support from a higher level requested?",
+      "/support_request.label": "Requested support",
+      "/attachments.label": "Attachments",
+      "/attachments/*/attachment_id.label": "Attachment identifier",
+      "/attachments/*/file_name.label": "File name",
+      "/attachments/*/mime_type.label": "File type",
+      "/attachments/*/size.label": "Size in bytes",
+      "/attachments/*/sha256.label": "SHA-256 fingerprint",
+      "/author_declaration.label": "I confirm the accuracy of the information provided.",
+      "form.title": "Daily territorial report",
+      "form.description": "Configurable pilot form for offline daily collection and hierarchical reporting.",
+      "activity.category.ADMINISTRATION": "Administration",
+      "activity.category.PUBLIC_SERVICE": "Public service",
+      "activity.category.FIELD_ACTIVITY": "Field activity",
+      "activity.category.INCIDENT": "Incident",
+      "activity.category.OTHER": "Other"
+    }
+  }
+}

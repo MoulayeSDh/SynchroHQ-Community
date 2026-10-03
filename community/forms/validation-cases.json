@@ -1,0 +1,134 @@
+[
+  {
+    "name": "valid",
+    "answers": {
+      "report_date": "2026-09-28",
+      "situation_level": "NORMAL",
+      "executive_summary": "Les activités territoriales se sont déroulées normalement.",
+      "activities": [
+        {
+          "category": "FIELD_ACTIVITY",
+          "description": "Visite de terrain",
+          "occurred_at": "2026-09-28T08:30:00Z",
+          "quantity": 3
+        }
+      ],
+      "needs_support": false,
+      "author_declaration": true
+    },
+    "valid": true
+  },
+  {
+    "name": "missing-required",
+    "answers": {},
+    "valid": false
+  },
+  {
+    "name": "support-required",
+    "answers": {
+      "report_date": "2026-09-28",
+      "situation_level": "NORMAL",
+      "executive_summary": "Les activités territoriales se sont déroulées normalement.",
+      "activities": [
+        {
+          "category": "FIELD_ACTIVITY",
+          "description": "Visite de terrain",
+          "occurred_at": "2026-09-28T08:30:00Z",
+          "quantity": 3
+        }
+      ],
+      "needs_support": true,
+      "author_declaration": true
+    },
+    "valid": false
+  },
+  {
+    "name": "negative-quantity",
+    "answers": {
+      "report_date": "2026-09-28",
+      "situation_level": "NORMAL",
+      "executive_summary": "Les activités territoriales se sont déroulées normalement.",
+      "activities": [
+        {
+          "category": "FIELD_ACTIVITY",
+          "description": "Visite de terrain",
+          "occurred_at": "2026-09-28T08:30:00Z",
+          "quantity": -1
+        }
+      ],
+      "needs_support": false,
+      "author_declaration": true
+    },
+    "valid": false
+  },
+  {
+    "name": "invalid-date",
+    "answers": {
+      "report_date": "2026-02-30",
+      "situation_level": "NORMAL",
+      "executive_summary": "Les activités territoriales se sont déroulées normalement.",
+      "activities": [
+        {
+          "category": "FIELD_ACTIVITY",
+          "description": "Visite de terrain",
+          "occurred_at": "2026-09-28T08:30:00Z",
+          "quantity": 3
+        }
+      ],
+      "needs_support": false,
+      "author_declaration": true
+    },
+    "valid": false
+  },
+  {
+    "name": "empty-group",
+    "answers": {
+      "report_date": "2026-09-28",
+      "situation_level": "NORMAL",
+      "executive_summary": "Les activités territoriales se sont déroulées normalement.",
+      "activities": [],
+      "needs_support": false,
+      "author_declaration": true
+    },
+    "valid": false
+  },
+  {
+    "name": "declaration-false",
+    "answers": {
+      "report_date": "2026-09-28",
+      "situation_level": "NORMAL",
+      "executive_summary": "Les activités territoriales se sont déroulées normalement.",
+      "activities": [
+        {
+          "category": "FIELD_ACTIVITY",
+          "description": "Visite de terrain",
+          "occurred_at": "2026-09-28T08:30:00Z",
+          "quantity": 3
+        }
+      ],
+      "needs_support": false,
+      "author_declaration": false
+    },
+    "valid": false
+  },
+  {
+    "name": "unknown-field",
+    "answers": {
+      "report_date": "2026-09-28",
+      "situation_level": "NORMAL",
+      "executive_summary": "Les activités territoriales se sont déroulées normalement.",
+      "activities": [
+        {
+          "category": "FIELD_ACTIVITY",
+          "description": "Visite de terrain",
+          "occurred_at": "2026-09-28T08:30:00Z",
+          "quantity": 3
+        }
+      ],
+      "needs_support": false,
+      "author_declaration": true,
+      "unexpected": 1
+    },
+    "valid": false
+  }
+]

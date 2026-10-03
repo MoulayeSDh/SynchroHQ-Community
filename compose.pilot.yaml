@@ -1,0 +1,20 @@
+services:
+  postgres:
+    ports: !override []
+    restart: unless-stopped
+  minio:
+    ports: !override []
+    restart: unless-stopped
+  backend:
+    environment:
+      APP_ENV: production
+      DEMO_LOGIN_ENABLED: 'false'
+      AUTH_JWT_SECRET: ${AUTH_JWT_SECRET:?AUTH_JWT_SECRET required}
+      CORS_ORIGINS: http://localhost:3000
+    ports: !override
+      - '127.0.0.1:8001:8000'
+    restart: unless-stopped
+  frontend:
+    ports: !override
+      - '127.0.0.1:3000:3000'
+    restart: unless-stopped

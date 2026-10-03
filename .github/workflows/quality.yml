@@ -1,0 +1,50 @@
+name: Quality
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  backend:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgis/postgis:16-3.5-alpine
+        env:
+          POSTGRES_DB: synchrohq
+          POSTGRES_USER: synchrohq
+          POSTGRES_PASSWORD: synchrohq_ci
+        ports: ["5432:5432"]
+        options: >-
+          --health-cmd "pg_isready -U synchrohq -d synchrohq"
+          --health-interval 5s --health-timeout 3s --health-retries 10
+    env:
+      POSTGRES_PASSWORD: synchrohq_ci
+    defaults:
+      run:
+        working-directory: community/backend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.14"}
+      - run: pip install -r ../../requirements.txt -r ../../requirements-dev.txt
+      - run: alembic upgrade head
+      - run: ruff check app migrations tests
+      - run: mypy app
+      - run: pytest -q
+  frontend:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: community/frontend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with: {version: "11.25.0"}
+      - uses: actions/setup-node@v4
+        with: {node-version: "24", cache: "pnpm", cache-dependency-path: community/frontend/pnpm-lock.yaml}
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm lint
+      - run: pnpm typecheck
+      - run: pnpm test
+      - run: pnpm build

@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" role="img" aria-labelledby="title description">
+  <title id="title">SynchroHQ — connected territories, better informed decisions</title>
+  <desc id="description">SynchroHQ banner with its network mark, offline collection, synchronization, and a conceptual monitoring preview.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#061a32"/>
+      <stop offset=".56" stop-color="#0b3459"/>
+      <stop offset="1" stop-color="#062b48"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#20e0f2"/>
+      <stop offset="1" stop-color="#0871ff"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#69ee74"/>
+      <stop offset="1" stop-color="#0bad63"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#ffffff" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity=".06"/>
+    </linearGradient>
+    <radialGradient id="glow"><stop stop-color="#00c7ff" stop-opacity=".27"/><stop offset="1" stop-color="#00c7ff" stop-opacity="0"/></radialGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%"><feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#001324" flood-opacity=".5"/></filter>
+    <pattern id="dots" width="30" height="30" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1" fill="#9dc8e3" opacity=".12"/></pattern>
+  </defs>
+
+  <rect width="1200" height="440" rx="28" fill="url(#background)"/>
+  <rect width="1200" height="440" rx="28" fill="url(#dots)"/>
+  <circle cx="1020" cy="60" r="360" fill="url(#glow)"/>
+  <circle cx="845" cy="350" r="270" fill="url(#glow)" opacity=".46"/>
+  <path d="M602 0C670 130 690 245 833 440M740 0C781 124 834 235 1030 440" fill="none" stroke="#76cfea" stroke-width="1" opacity=".1"/>
+
+  <g transform="translate(58 39) scale(.68)" stroke-linecap="round">
+    <path d="M50 20V50M20 50H80M50 50V80" fill="none" stroke="#15c2a0" stroke-width="7"/>
+    <path d="M18 32A36 36 0 0 1 32 18M68 18A36 36 0 0 1 82 32M82 68A36 36 0 0 1 68 82M32 82A36 36 0 0 1 18 68" fill="none" stroke="url(#cyan)" stroke-width="7"/>
+    <circle cx="50" cy="50" r="14" fill="url(#cyan)"/>
+    <circle cx="50" cy="15" r="10" fill="url(#green)"/>
+    <circle cx="15" cy="50" r="10" fill="url(#green)"/>
+    <circle cx="85" cy="50" r="10" fill="url(#green)"/>
+    <circle cx="50" cy="85" r="10" fill="url(#cyan)"/>
+  </g>
+
+  <text x="134" y="91" fill="#f6fcff" font-family="Segoe UI, Arial, sans-serif" font-size="39" font-weight="750" letter-spacing="-1.5">Synchro<tspan fill="#37b9ff">HQ</tspan></text>
+  <text x="137" y="116" fill="#9fc9dc" font-family="Segoe UI, Arial, sans-serif" font-size="13" letter-spacing="3.4">COLLECT  ·  SYNC  ·  ACT  ·  TOGETHER</text>
+
+  <text x="68" y="204" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="46" font-weight="750" letter-spacing="-1.1">From field to decision.</text>
+  <text x="68" y="261" fill="#a9edff" font-family="Segoe UI, Arial, sans-serif" font-size="43" font-weight="700" letter-spacing="-1.1">Even without a signal.</text>
+  <text x="71" y="307" fill="#c9deeb" font-family="Segoe UI, Arial, sans-serif" font-size="18">Reliable, traceable information at every level.</text>
+
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600">
+    <rect x="69" y="345" width="177" height="42" rx="21" fill="#0b7195" opacity=".64" stroke="#28c8e0" stroke-opacity=".55"/>
+    <circle cx="89" cy="366" r="5" fill="#5ceabd"/>
+    <text x="103" y="371" fill="#e7fbff">Offline-first capture</text>
+    <rect x="260" y="345" width="164" height="42" rx="21" fill="#0b7195" opacity=".64" stroke="#28c8e0" stroke-opacity=".55"/>
+    <circle cx="280" cy="366" r="5" fill="#5ceabd"/>
+    <text x="294" y="371" fill="#e7fbff">Workflow &amp; audit</text>
+    <rect x="438" y="345" width="181" height="42" rx="21" fill="#0b7195" opacity=".64" stroke="#28c8e0" stroke-opacity=".55"/>
+    <circle cx="458" cy="366" r="5" fill="#5ceabd"/>
+    <text x="472" y="371" fill="#e7fbff">Analytics &amp; Geo</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="806" y="74" width="328" height="296" rx="22" fill="url(#glass)" stroke="#b6e7f7" stroke-opacity=".35"/>
+    <text x="831" y="112" fill="#e9f8ff" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">Overview</text>
+    <rect x="831" y="130" width="278" height="1" fill="#b6e7f7" opacity=".22"/>
+
+    <g font-family="Segoe UI, Arial, sans-serif">
+      <rect x="831" y="151" width="126" height="82" rx="12" fill="#042c4b" opacity=".82" stroke="#4ed5ed" stroke-opacity=".22"/>
+      <text x="847" y="180" fill="#accfe2" font-size="13">Reports received</text>
+      <text x="847" y="215" fill="#ffffff" font-size="27" font-weight="750">08<tspan fill="#53e8c1" font-size="13" font-weight="500">  on time</tspan></text>
+      <rect x="969" y="151" width="140" height="82" rx="12" fill="#042c4b" opacity=".82" stroke="#4ed5ed" stroke-opacity=".22"/>
+      <text x="985" y="180" fill="#accfe2" font-size="13">To review</text>
+      <text x="985" y="215" fill="#ffffff" font-size="27" font-weight="750">02<tspan fill="#76c4ff" font-size="13" font-weight="500">  reports</tspan></text>
+
+      <text x="833" y="268" fill="#bfd9e8" font-size="13">From field to insight</text>
+      <path d="M856 313H1080" stroke="#63c8e9" stroke-opacity=".45" stroke-width="3"/>
+      <path d="M872 312Q954 260 1068 312" fill="none" stroke="url(#cyan)" stroke-width="2" opacity=".65"/>
+      <circle cx="856" cy="313" r="10" fill="url(#green)"/>
+      <circle cx="969" cy="285" r="10" fill="url(#cyan)"/>
+      <circle cx="1080" cy="313" r="10" fill="url(#green)"/>
+      <text x="833" y="346" fill="#d9eef8" font-size="12">Collect</text>
+      <text x="945" y="346" fill="#d9eef8" font-size="12">Sync</text>
+      <text x="1052" y="346" fill="#d9eef8" font-size="12">Decide</text>
+    </g>
+  </g>
+
+  <text x="806" y="395" fill="#8bb4c9" font-family="Segoe UI, Arial, sans-serif" font-size="11" letter-spacing="1.5">CONCEPT PREVIEW · SYNTHETIC DATA</text>
+</svg>

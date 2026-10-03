@@ -1,0 +1,52 @@
+.local/
+# Secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+# Frontend
+node_modules/
+.next/
+out/
+coverage/
+playwright-report/
+test-results/
+*.tsbuildinfo
+# DonnÃ©es et fichiers locaux
+*.log
+.DS_Store
+Thumbs.db
+tmp/
+backups/
+uploads/
+
+# IDE et Ã©diteurs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Outils et caches locaux
+.cache/
+.tox/
+.nox/
+.hypothesis/
+.eslintcache
+.pnpm-store/
+
+# Environnements Docker locaux
+docker-compose.override.yml
+compose.override.yml

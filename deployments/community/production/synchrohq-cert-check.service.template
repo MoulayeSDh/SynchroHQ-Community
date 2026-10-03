@@ -1,0 +1,8 @@
+[Unit]
+Description=Check and renew SynchroHQ HTTPS certificate
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/sbin/synchrohq-cert-check @CERT_NAME@ @CERT_CHAIN@

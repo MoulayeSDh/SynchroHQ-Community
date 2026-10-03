@@ -1,0 +1,54 @@
+services:
+  postgres:
+    image: postgis/postgis:16-3.5-alpine
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-synchrohq}
+      POSTGRES_USER: ${POSTGRES_USER:-synchrohq}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-synchrohq_dev}
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-synchrohq} -d ${POSTGRES_DB:-synchrohq}"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+    ports: ["127.0.0.1:${POSTGRES_HOST_PORT:-5434}:5432"]
+    volumes: [postgres_data:/var/lib/postgresql/data]
+  minio:
+    build: {context: ., dockerfile: deployments/docker/minio/Dockerfile}
+    command: server /data --console-address ":9001"
+    environment:
+      MINIO_ROOT_USER: ${S3_ACCESS_KEY:-synchrohq_dev}
+      MINIO_ROOT_PASSWORD: ${S3_SECRET_KEY:-synchrohq_dev_secret}
+    ports:
+      - "127.0.0.1:${MINIO_HOST_PORT:-9000}:9000"
+      - "127.0.0.1:${MINIO_CONSOLE_HOST_PORT:-9001}:9001"
+    volumes: [minio_data:/data]
+  backend:
+    image: synchrohq/community-backend:${COMMUNITY_IMAGE_TAG:-dev}
+    build: {context: ., dockerfile: community/backend/Dockerfile}
+    environment:
+      APP_ENV: ${APP_ENV:-development}
+      DEMO_LOGIN_ENABLED: ${DEMO_LOGIN_ENABLED:-false}
+      POSTGRES_HOST: postgres
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-synchrohq_dev}
+      CORS_ORIGINS: http://localhost:3000
+      S3_ENDPOINT_URL: http://minio:9000
+      S3_REGION: ${S3_REGION:-us-east-1}
+      S3_BUCKET: ${S3_BUCKET:-synchrohq}
+      S3_ACCESS_KEY: ${S3_ACCESS_KEY:-synchrohq_dev}
+      S3_SECRET_KEY: ${S3_SECRET_KEY:-synchrohq_dev_secret}
+      ATTACHMENT_MAX_BYTES: ${ATTACHMENT_MAX_BYTES:-10485760}
+    ports: ["${API_HOST_PORT:-8001}:8000"]
+    depends_on:
+      postgres: {condition: service_healthy}
+      minio: {condition: service_started}
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/api/health')"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+  frontend:
+    build: {context: ., dockerfile: community/frontend/Dockerfile}
+    environment: {API_INTERNAL_URL: http://backend:8000}
+    ports: ["3000:3000"]
+    depends_on: {backend: {condition: service_healthy}}
+volumes: {postgres_data: {}, minio_data: {}}

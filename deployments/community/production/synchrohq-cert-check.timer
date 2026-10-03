@@ -1,0 +1,11 @@
+[Unit]
+Description=Check SynchroHQ HTTPS certificate twice daily
+
+[Timer]
+OnCalendar=*-*-* 06,18:00:00 UTC
+RandomizedDelaySec=15min
+Persistent=true
+Unit=synchrohq-cert-check.service
+
+[Install]
+WantedBy=timers.target

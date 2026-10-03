@@ -110,8 +110,6 @@ Production deployment validation, operational hardening and real-world field val
 
 For technical users and implementation teams:
 
-- [Technical roadmap](docs/roadmap.md)
-- [Application guide](docs/user-guide/application-shell.md)
 - [Reproducible production deployment](deployments/community/production/README.md)
 
 ### Development environment

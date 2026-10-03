@@ -20,37 +20,6 @@
 
 ---
 
-## Choose your SynchroHQ edition
-
-**SynchroHQ Community — Free & Open Source.** Self-host the complete Community
-platform under the [GNU AGPLv3 license](LICENSE). It includes field reporting,
-offline synchronization, hierarchical access control, dashboards, and maps.
-No Enterprise purchase is needed to use or customize Community under the
-license terms.
-
-**SynchroHQ Enterprise / AI — Proprietary commercial edition.** This is a
-separate, paid offering developed by **D-Corp Invest**, with pricing on request.
-Its private implementation includes semantic search and an AI assistant. These
-capabilities have passed local validation with synthetic data; commercial
-distribution terms and customer deployment remain under review. Availability
-and scope will be confirmed in a quotation.
-
-| Capability | Community | Enterprise / AI |
-| --- | --- | --- |
-| License | AGPL-3.0-only | Separate proprietary commercial terms |
-| Price | Free to self-host | Paid; contact us for a quotation |
-| Forms and reports | Included | Included through Community |
-| Offline work and synchronization | Included | Included through Community |
-| Hierarchy and permissions | Included | Included through Community |
-| Dashboards and maps | Included | Included through Community |
-| Semantic search and AI assistant | Not included | Implemented in private validation build; commercial availability pending |
-| Deployment, integration, customization, and support | Self-service documentation | Commercial services may be offered by agreement |
-
-Community runs independently of Enterprise / AI. For commercial inquiries,
-visit the [D-Corp Invest contact page](https://www.dcorpinvest.com/contact).
-
----
-
 ## Turn fragmented information into coordinated action
 
 **Every day, critical information is collected across offices, territories, field teams, and operational units. But collecting information is only the beginning.**
@@ -177,6 +146,31 @@ The versioned production deployment guide covers a fresh Community install,
 initial administration, HTTPS templates, backups and a
 clean-host restore. The synthetic clean-host install and restore passed in
 GitHub Actions; further Linux validation is deferred to a client deployment.
+
+## Choose your SynchroHQ edition
+
+**Start with Community. Grow with D-Corp Invest.** Community gives your team a
+complete, free platform to host and operate independently. Enterprise / AI is
+the paid, proprietary offering for organizations seeking additional
+intelligence and a contracted delivery and support relationship.
+
+| What you get | Community — Free & Open Source | Enterprise / AI — Commercial |
+| --- | --- | --- |
+| Forms and structured reports | Included; configure and operate them yourself | Included, with tailored form design available in the quoted services |
+| Offline collection and synchronization | Included | Included |
+| Hierarchy, permissions, dashboards, and maps | Included | Included |
+| Semantic search and AI assistant | Not included | Available in the private validation build; customer availability to be confirmed |
+| Managed deployment and integrations | Not included; self-host using the documentation | Included when specified in the commercial proposal |
+| Maintenance, updates, training, and support from D-Corp Invest | Not included; Community is self-service | Included according to the signed service agreement |
+| License and price | [AGPLv3](LICENSE); free to self-host | Proprietary commercial terms; paid, on quotation |
+
+Community remains fully functional without Enterprise / AI. The Enterprise AI
+features have passed local tests with synthetic data; commercial distribution
+terms and customer deployment are still under review. The scope, availability,
+and service commitments of a paid offering will be set out in its quotation
+and agreement.
+
+**Ready to discuss your deployment?** [Contact D-Corp Invest for a quotation](https://www.dcorpinvest.com/contact).
 
 ### Licensing
 

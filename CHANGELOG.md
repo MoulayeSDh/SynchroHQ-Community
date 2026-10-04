@@ -15,5 +15,7 @@ will be dated and tagged after the remaining publication checks are complete.
   inventory.
 - Consolidated backend runtime dependencies in `requirements.txt` and removed
   the historical misspelled file.
+- Updated frontend `ajv` to 8.18.0 to address the two GitHub dependency alerts
+  for its direct dependency and lockfile entries.
 
 No release tag or customer distribution is implied by this entry.
